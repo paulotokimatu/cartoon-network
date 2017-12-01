@@ -1,127 +1,316 @@
 export const scheduleDay = {
-  '01/12/2017': {
-    '00': {
-      '00': {
-        showId: 'regularShow'
-      },
-      '45': {
-        showId: 'jorelsBrother'
-      },
+  '01/12/2017': [
+    {
+      hour: '00',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '01': {
-      '00': {
-
-      }
+    {
+      hour: '01',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '02': {
-      '00': {
-
-      }
+    {
+      hour: '02',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '03': {
-      '00': {
-
-      }
+    {
+      hour: '03',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '04': {
-      '00': {
-
-      }
+    {
+      hour: '04',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '05': {
-      '00': {
-
-      }
+    {
+      hour: '05',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '06': {
-      '00': {
-
-      }
+    {
+      hour: '06',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '07': {
-      '00': {
-
-      }
+    {
+      hour: '07',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '08': {
-      '00': {
-
-      }
+    {
+      hour: '08',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '09': {
-      '00': {
-
-      }
+    {
+      hour: '09',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '10': {
-      '00': {
-
-      }
+    {
+      hour: '10',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '11': {
-      '00': {
-
-      }
+    {
+      hour: '11',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '12': {
-      '00': {
-
-      }
+    {
+      hour: '12',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '13': {
-      '00': {
-
-      }
+    {
+      hour: '13',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '14': {
-      '00': {
-
-      }
+    {
+      hour: '14',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '15': {
-      '00': {
-
-      }
+    {
+      hour: '15',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '16': {
-      '00': {
-
-      }
+    {
+      hour: '16',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '17': {
-      '00': {
-
-      }
+    {
+      hour: '17',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '18': {
-      '00': {
-
-      }
+    {
+      hour: '18',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '19': {
-      '00': {
-
-      }
+    {
+      hour: '19',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '20': {
-      '00': {
-
-      }
+    {
+      hour: '20',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '21': {
-      '00': {
-
-      }
+    {
+      hour: '21',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '22': {
-      '00': {
-
-      }
+    {
+      hour: '22',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
     },
-    '23': {
-      '00': {
-
-      }
-    },
-  },
+    {
+      hour: '23',
+      detail: [
+        {
+          startTime: '00',
+          showId: 'regularShow'
+        },
+        {
+          startTime: '45',
+          showId: 'jorelsBrother'
+        }
+      ]
+    }
+  ],
 };
