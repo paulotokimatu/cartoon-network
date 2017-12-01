@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { MainContentComponent } from './main-content/main-content.component';
@@ -10,8 +9,8 @@ import { FooterMenuComponent } from './footer/footer-menu/footer-menu.component'
 import { ScheduleComponent } from './main-content/schedule/schedule.component';
 import { CartoonListComponent } from './main-content/cartoon-list/cartoon-list.component';
 import { AdsComponent } from './header/ads/ads.component';
+import { ScheduleService } from "./main-content/schedule/schedule.service";
 import { ScheduleDetailComponent } from './main-content/schedule-detail/schedule-detail.component';
-
 
 @NgModule({
   declarations: [
@@ -23,12 +22,14 @@ import { ScheduleDetailComponent } from './main-content/schedule-detail/schedule
     ScheduleComponent,
     CartoonListComponent,
     AdsComponent,
-    ScheduleDetailComponent
+    ScheduleDetailComponent,
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [
+    ScheduleService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
