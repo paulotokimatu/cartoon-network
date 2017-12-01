@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { scheduleDay } from '../../_data/schedule-day';
 
 @Component({
   selector: 'app-schedule',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./schedule.component.scss']
 })
 export class ScheduleComponent implements OnInit {
+  scheduleDay = {};
 
   constructor() { }
 
   ngOnInit() {
+    this.scheduleDay = scheduleDay;
   }
 
 }
