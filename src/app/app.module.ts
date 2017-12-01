@@ -10,6 +10,7 @@ import { FooterMenuComponent } from './footer/footer-menu/footer-menu.component'
 import { ScheduleComponent } from './main-content/schedule/schedule.component';
 import { CartoonListComponent } from './main-content/cartoon-list/cartoon-list.component';
 import { AdsComponent } from './header/ads/ads.component';
+import { ScheduleDetailComponent } from './main-content/schedule-detail/schedule-detail.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { AdsComponent } from './header/ads/ads.component';
     FooterMenuComponent,
     ScheduleComponent,
     CartoonListComponent,
-    AdsComponent
+    AdsComponent,
+    ScheduleDetailComponent
   ],
   imports: [
     BrowserModule
