@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { cartoonDetails } from '../../_data/cartoon-details';
+import { cartoonsDetails } from '../../_data/cartoons-details';
+import { cartoonsFeatured } from '../../_data/cartoons-featured';
 
 @Component({
   selector: 'app-cartoon-list',
@@ -7,13 +8,15 @@ import { cartoonDetails } from '../../_data/cartoon-details';
   styleUrls: ['./cartoon-list.component.scss']
 })
 export class CartoonListComponent implements OnInit {
-  featuredCartoons = ['regularShow', 'jorelsBrother'];
   allCartoons: any;
+  featuredCartoons: string[];
 
   constructor() { }
 
   ngOnInit() {
-    this.allCartoons = cartoonDetails;
+    this.allCartoons = cartoonsDetails;
+    this.featuredCartoons = cartoonsFeatured;
+    console.log(this.allCartoons);
   }
 
 }

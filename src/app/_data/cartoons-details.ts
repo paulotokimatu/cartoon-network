@@ -1,4 +1,4 @@
-export const cartoonDetails = {
+export const cartoonsDetails = {
   regularShow: {
     titlePt: 'Apenas Um Show',
     titleEn: 'Regular Show',
