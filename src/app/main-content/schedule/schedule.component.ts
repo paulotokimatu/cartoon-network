@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ScheduleService } from './schedule.service';
 import { Schedule } from '../../_models/schedule.model';
+import { DateService } from '../date.service';
+import { Subscription } from 'rxjs/Subscription';
 
 @Component({
   selector: 'app-schedule',
@@ -9,14 +11,30 @@ import { Schedule } from '../../_models/schedule.model';
 })
 export class ScheduleComponent implements OnInit {
   schedule: Schedule;
+  //TODO model for date
+  date: any;
+  dateSub: Subscription;
 
-  constructor(private scheduleService: ScheduleService) { }
+  constructor(private scheduleService: ScheduleService, private dateService: DateService) { }
 
   ngOnInit() {
-    this.schedule = this.scheduleService.getSchedule();
+    this.date = this.dateService.getDate();
+    this.dateSub = this.dateService.currentDateChanged.subscribe(newDate => {
+      this.date = newDate;
+      this.updateSchedule();
+    })
+    this.updateSchedule();
+  }
+
+  updateSchedule() {
+    this.schedule = this.scheduleService.getSchedule(this.date.formattedDate);
   }
 
   onSetScheduleDetails(details) {
     this.scheduleService.setScheduleDetails(details);
+  }
+
+  onGetNextDay() {
+    this.dateService.getNextDay();
   }
 }

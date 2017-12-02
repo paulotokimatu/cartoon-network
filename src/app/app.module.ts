@@ -11,6 +11,7 @@ import { CartoonListComponent } from './main-content/cartoon-list/cartoon-list.c
 import { AdsComponent } from './header/ads/ads.component';
 import { ScheduleService } from "./main-content/schedule/schedule.service";
 import { ScheduleDetailsComponent } from './main-content/schedule-details/schedule-details.component';
+import { DateService } from './main-content/date.service';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { ScheduleDetailsComponent } from './main-content/schedule-details/schedu
   ],
   providers: [
     ScheduleService,
+    DateService,
   ],
   bootstrap: [AppComponent]
 })
