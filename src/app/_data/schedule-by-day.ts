@@ -1,5 +1,5 @@
-export const scheduleDay = {
-  '01/12/2017': [
+export const scheduleByDay = {
+  '2017/12/1': [
     {
       hour: '00',
       detail: [

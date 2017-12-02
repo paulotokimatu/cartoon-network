@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { scheduleDay } from '../../_data/schedule-day';
+import { ScheduleService } from './schedule.service';
 
 @Component({
   selector: 'app-schedule',
@@ -7,12 +7,12 @@ import { scheduleDay } from '../../_data/schedule-day';
   styleUrls: ['./schedule.component.scss']
 })
 export class ScheduleComponent implements OnInit {
-  scheduleDay = {};
+  schedule = {};
 
-  constructor() { }
+  constructor(private scheduleService: ScheduleService) { }
 
   ngOnInit() {
-    this.scheduleDay = scheduleDay;
+    this.schedule = this.scheduleService.getSchedule();
   }
 
 }
