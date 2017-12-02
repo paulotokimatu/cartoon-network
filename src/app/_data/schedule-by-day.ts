@@ -1,8 +1,8 @@
-export const scheduleDay = {
-  '01/12/2017': [
+export const scheduleByDay = {
+  '2017/12/2': [
     {
       hour: '00',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -15,7 +15,7 @@ export const scheduleDay = {
     },
     {
       hour: '01',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -28,7 +28,7 @@ export const scheduleDay = {
     },
     {
       hour: '02',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -41,7 +41,7 @@ export const scheduleDay = {
     },
     {
       hour: '03',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -54,7 +54,7 @@ export const scheduleDay = {
     },
     {
       hour: '04',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -67,7 +67,7 @@ export const scheduleDay = {
     },
     {
       hour: '05',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -80,7 +80,7 @@ export const scheduleDay = {
     },
     {
       hour: '06',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -93,7 +93,7 @@ export const scheduleDay = {
     },
     {
       hour: '07',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -106,7 +106,7 @@ export const scheduleDay = {
     },
     {
       hour: '08',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -119,7 +119,7 @@ export const scheduleDay = {
     },
     {
       hour: '09',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -132,7 +132,7 @@ export const scheduleDay = {
     },
     {
       hour: '10',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -145,7 +145,7 @@ export const scheduleDay = {
     },
     {
       hour: '11',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -158,7 +158,7 @@ export const scheduleDay = {
     },
     {
       hour: '12',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -171,7 +171,7 @@ export const scheduleDay = {
     },
     {
       hour: '13',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -184,7 +184,7 @@ export const scheduleDay = {
     },
     {
       hour: '14',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -197,7 +197,7 @@ export const scheduleDay = {
     },
     {
       hour: '15',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -210,7 +210,7 @@ export const scheduleDay = {
     },
     {
       hour: '16',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -223,7 +223,7 @@ export const scheduleDay = {
     },
     {
       hour: '17',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -236,7 +236,7 @@ export const scheduleDay = {
     },
     {
       hour: '18',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -249,7 +249,7 @@ export const scheduleDay = {
     },
     {
       hour: '19',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -262,7 +262,7 @@ export const scheduleDay = {
     },
     {
       hour: '20',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -275,7 +275,7 @@ export const scheduleDay = {
     },
     {
       hour: '21',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -288,7 +288,7 @@ export const scheduleDay = {
     },
     {
       hour: '22',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
@@ -301,7 +301,7 @@ export const scheduleDay = {
     },
     {
       hour: '23',
-      detail: [
+      details: [
         {
           startTime: '00',
           showId: 'regularShow'
