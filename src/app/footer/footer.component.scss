@@ -1,0 +1,15 @@
+@import '../../assets/variables';
+
+.footer {
+  background-color: $color-gray;
+  color: $color-gray-light;
+  display: block;
+  font-size: $font-size-xs;
+}
+
+.footer__main-text {
+  margin: auto;
+  max-width: $main-size;
+  padding: $space-md;
+  text-align: center;
+}
