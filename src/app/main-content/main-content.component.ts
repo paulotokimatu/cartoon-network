@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ScheduleService } from './schedule/schedule.service';
+import { DateService } from './date.service';
 
 @Component({
   selector: 'app-main-content',
@@ -7,12 +8,12 @@ import { ScheduleService } from './schedule/schedule.service';
   styleUrls: ['./main-content.component.scss']
 })
 export class MainContentComponent implements OnInit {
-  currentDate = {};
-
-  constructor(private scheduleService: ScheduleService) { }
+  date = {};
+  
+  constructor(private scheduleService: ScheduleService, private dateService: DateService) { }
 
   ngOnInit() {
-    this.currentDate = this.scheduleService.getCurrentDate();
+    this.date = this.dateService.getDate();
   }
 
 }
