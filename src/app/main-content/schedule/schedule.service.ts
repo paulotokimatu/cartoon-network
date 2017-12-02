@@ -1,11 +1,12 @@
-import { scheduleByDay } from '../../_data/schedule-by-day';
 import { Subject } from 'rxjs/Subject';
+import { scheduleByDay } from '../../_data/schedule-by-day';
+import { ScheduleHourDetails } from '../../_models/schedule-hour-details.model';
 
 export class ScheduleService {
   dayWeek = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
   currentDate: any;
   //TODO create model for details
-  detailsChanged = new Subject<{}>();
+  detailsChanged = new Subject<ScheduleHourDetails>();
 
   constructor() {
   }
@@ -31,7 +32,7 @@ export class ScheduleService {
     return scheduleByDay[this.parseFullDate(date)];
   }
 
-  setScheduleDetail(details) {
+  setScheduleDetails(details) {
     this.detailsChanged.next(details);
   }
 }

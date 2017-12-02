@@ -3,11 +3,11 @@ import { ScheduleService } from '../schedule/schedule.service';
 import { Subscription } from 'rxjs/Subscription';
 
 @Component({
-  selector: 'app-schedule-detail',
-  templateUrl: './schedule-detail.component.html',
-  styleUrls: ['./schedule-detail.component.scss']
+  selector: 'app-schedule-details',
+  templateUrl: './schedule-details.component.html',
+  styleUrls: ['./schedule-details.component.scss']
 })
-export class ScheduleDetailComponent implements OnInit {
+export class ScheduleDetailsComponent implements OnInit {
   details: any;
   detailsSub: Subscription;
 

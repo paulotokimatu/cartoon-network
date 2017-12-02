@@ -10,7 +10,7 @@ import { ScheduleComponent } from './main-content/schedule/schedule.component';
 import { CartoonListComponent } from './main-content/cartoon-list/cartoon-list.component';
 import { AdsComponent } from './header/ads/ads.component';
 import { ScheduleService } from "./main-content/schedule/schedule.service";
-import { ScheduleDetailComponent } from './main-content/schedule-detail/schedule-detail.component';
+import { ScheduleDetailsComponent } from './main-content/schedule-details/schedule-details.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,7 @@ import { ScheduleDetailComponent } from './main-content/schedule-detail/schedule
     ScheduleComponent,
     CartoonListComponent,
     AdsComponent,
-    ScheduleDetailComponent,
+    ScheduleDetailsComponent,
   ],
   imports: [
     BrowserModule
