@@ -1,0 +1,23 @@
+@import '../../../assets/variables';
+
+:host {
+  background-color: $color-gray-dark;
+  color: $color-white;
+  display: block;
+  font-size: $font-size-xs;
+  text-align: center;
+}
+
+.menu {
+  list-style-type: none;
+  margin: auto;
+  max-width: $main-size;  
+  padding: $space-sm 0;
+  text-transform: uppercase;
+}
+
+.menu__item {
+  display: inline-block;
+  padding: $space-sm $space-md;
+  text-decoration: center;
+}
