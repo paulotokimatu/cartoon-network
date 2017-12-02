@@ -15,4 +15,7 @@ export class ScheduleComponent implements OnInit {
     this.schedule = this.scheduleService.getSchedule();
   }
 
+  onSetScheduleDetail(details) {
+    this.scheduleService.setScheduleDetail(details);
+  }
 }

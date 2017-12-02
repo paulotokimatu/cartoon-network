@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ScheduleService } from '../schedule/schedule.service';
+import { Subscription } from 'rxjs/Subscription';
 
 @Component({
   selector: 'app-schedule-detail',
@@ -6,10 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./schedule-detail.component.scss']
 })
 export class ScheduleDetailComponent implements OnInit {
+  details: any;
+  detailsSub: Subscription;
 
-  constructor() { }
+  constructor(private scheduleService: ScheduleService) { }
 
   ngOnInit() {
+    this.detailsSub = this.scheduleService.detailsChanged.subscribe(details => {
+      this.details = details;
+    })
   }
-
 }
