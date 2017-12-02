@@ -1,5 +1,9 @@
+import { Subject } from "rxjs/Subject";
+
 export class DateService {
   currentDate: Date = new Date();
+  currentDateChanged = new Subject<{}>();
+  
   dayWeek = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
   
   constructor() {
@@ -19,6 +23,6 @@ export class DateService {
 
   getNextDay() {
     this.currentDate.setDate(this.currentDate.getDate() + 1);
-    return this.getDate();
+    this.currentDateChanged.next(this.getDate());
   }
 }
