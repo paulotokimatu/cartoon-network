@@ -8,11 +8,10 @@ import { cartoonsFeatured } from '../../_data/cartoons-featured';
   styleUrls: ['./cartoon-list.component.scss']
 })
 export class CartoonListComponent implements OnInit {
-  @Output() changeCartoonDetailsModal = new EventEmitter();
-  @Output() changeSelectedCartoon = new EventEmitter();
-  
   allCartoons: any;
   featuredCartoons: string[];
+  selectedCartoon: any;
+  showCartoonDetailsModal: boolean = false;
 
   constructor() { }
 
@@ -21,8 +20,12 @@ export class CartoonListComponent implements OnInit {
     this.featuredCartoons = cartoonsFeatured;
   }
 
-  onShowDetails(cartoon) {
-    this.changeCartoonDetailsModal.emit(true);
-    this.changeSelectedCartoon.emit(cartoon);
+  onOpenCartoonDetailsModal(cartoon) {
+    this.selectedCartoon = cartoon;
+    this.showCartoonDetailsModal = true;
+  }
+
+  onCloseCartoonDetailsModal() {
+    this.showCartoonDetailsModal = false;
   }
 }

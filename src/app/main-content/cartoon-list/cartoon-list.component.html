@@ -1,3 +1,9 @@
-<span *ngFor="let cartoon of featuredCartoons" (click)="onShowDetails(allCartoons[cartoon])">
+<span *ngFor="let cartoon of featuredCartoons" (click)="onOpenCartoonDetailsModal(allCartoons[cartoon])">
   {{allCartoons[cartoon].titlePt}}
 </span>
+
+<app-cartoon-details-modal
+  *ngIf="showCartoonDetailsModal"
+  [selectedCartoonDetails]="selectedCartoon"
+  (changeCartoonDetailsModal)="onCloseCartoonDetailsModal()">
+</app-cartoon-details-modal>
