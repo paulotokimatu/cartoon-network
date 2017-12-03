@@ -1,4 +1,4 @@
-export const cartoonDetail = {
+export const cartoonsDetails = {
   regularShow: {
     titlePt: 'Apenas Um Show',
     titleEn: 'Regular Show',
@@ -25,4 +25,4 @@ export const cartoonDetail = {
     director: 'Juliano Enrico',
     casting: ''
   }
-}
+};
