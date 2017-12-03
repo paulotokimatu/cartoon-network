@@ -1,5 +1,19 @@
 @import '../../assets/variables';
 
+:host {
+  display: block;
+  margin: auto;
+  max-width: $main-size;
+  padding: 0 $space-md;
+}
+
 .title-day {
+  background-color: $color-primary-a;
+  border-top: $space-sm solid $color-primary-c;
+  color: $color-white;
   font-family: $font-primary;
+  font-size: $font-size-xl;
+  margin: $space-lg 0;
+  padding: $space-md;
+  text-transform: uppercase;
 }

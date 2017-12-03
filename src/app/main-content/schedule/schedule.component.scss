@@ -1,5 +1,30 @@
 @import '../../../assets/variables';
 
 :host {
+  display: inline-block;
   font-family: $font-primary;
+  margin: auto;
+  width: 60%;
+}
+
+.hour-square {
+  color: $color-white;
+  cursor: pointer;
+  display: inline-block;
+  height: 0;
+  margin: $space-xs;
+  padding-bottom: 18%;
+  width: 18%;
+}
+
+.hour-square:nth-child(3n+1) {
+  background-color:$color-primary-a;
+}
+
+.hour-square:nth-child(3n+2) {
+  background-color:$color-primary-b;
+}
+
+.hour-square:nth-child(3n+3) {
+  background-color:$color-primary-c;
 }
