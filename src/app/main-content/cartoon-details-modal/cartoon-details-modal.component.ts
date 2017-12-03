@@ -5,7 +5,7 @@ import { Component, EventEmitter, OnInit, Output, Input } from '@angular/core';
   templateUrl: './cartoon-details-modal.component.html',
   styleUrls: ['./cartoon-details-modal.component.scss'],
   host: {
-    "(click)": "close()"
+    '(click)': 'close()'
   }
 })
 export class CartoonDetailsModalComponent implements OnInit {

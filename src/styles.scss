@@ -1,4 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "cn-latin";
+  src: url("/assets/fonts/cnlatin.woff") format("woff");
+}
+
 body {
   border: 0;
   margin: 0;
