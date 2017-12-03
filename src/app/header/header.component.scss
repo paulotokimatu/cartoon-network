@@ -9,21 +9,30 @@
 .container-ads {
   background-color: $color-dark;
   color: $color-white;
+  font-family: $font-primary;
+  overflow: auto;
+  padding-bottom: $space-md;  
 }
 
 .container-search-bar {
   align-items: center;
   display: flex;
+  height: 30px;
   justify-content: space-between;
   margin: auto;
   max-width: $main-size;
+
+  .logo {
+    height: 37px;
+    position: relative;
+    top: 3px;
+  }
 
   .search-bar {
     background: $color-dark;
     border: 0;
     box-sizing: border-box;
     color: $color-gray-light;
-    height: 100%;
     margin: 0;
     padding: $space-sm;
     text-align: center;

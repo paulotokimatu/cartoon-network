@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ads.component.scss']
 })
 export class AdsComponent implements OnInit {
+  cartoonFeaturedAd: string = 'gumball';
 
   constructor() { }
 

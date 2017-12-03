@@ -1,1 +1,24 @@
 @import '../../../assets/variables';
+
+:host {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  max-width: $main-size;  
+}
+
+.cartoon-ad {
+
+}
+
+.block-message {
+  align-items: center;
+  background-color: $color-gray-dark;
+  border: 1px solid $color-gray-light;
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  width: 50%;
+}
+
