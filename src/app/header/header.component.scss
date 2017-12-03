@@ -1,0 +1,47 @@
+@import '../../assets/variables';
+
+:host {
+  background-color: $color-gray;
+  display: block;
+  margin-bottom: $space-lg;
+}
+
+.container-ads {
+  background-color: $color-dark;
+  color: $color-white;
+  font-family: $font-primary;
+  overflow: auto;
+  padding-bottom: $space-md;  
+}
+
+.container-search-bar {
+  align-items: center;
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+  margin: auto;
+  max-width: $main-size;
+
+  .logo {
+    height: 37px;
+    position: relative;
+    top: 3px;
+  }
+
+  .search-bar {
+    background: $color-dark;
+    border: 0;
+    box-sizing: border-box;
+    color: $color-gray-light;
+    margin: 0;
+    padding: $space-sm;
+    text-align: center;
+    text-transform: uppercase;
+    width: 25%;
+  }
+
+  .search-bar:active, .search-bar:focus {
+    border: 1px solid $color-gray-light;
+    outline: 0;
+  }
+}

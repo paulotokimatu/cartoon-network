@@ -1,0 +1,39 @@
+@import '../../../assets/variables';
+
+:host {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  max-width: $main-size;  
+}
+
+.cartoon-ad {
+
+}
+
+.block-message {
+  align-items: center;
+  background-color: $color-gray-dark;
+  border: 1px solid $color-gray-light;
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  width: 50%;
+}
+
+// Called 'publicidade' because classes with 'ad' are blocked by Adblock
+.publicidade-label {
+  font-size: $font-size-xxs;
+  text-transform: uppercase;
+  -webkit-transform-origin: 35% 147%;
+  -moz-transform-origin: 35% 147%;
+  -ms-transform-origin: 35% 147%;
+  -o-transform-origin: 35% 147%;
+  transform-origin: 35% 147%;
+  -webkit-transform: rotate(-90deg); 
+  -moz-transform: rotate(-90deg); 
+  -ms-transform: rotate(-90deg); 
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);  
+}

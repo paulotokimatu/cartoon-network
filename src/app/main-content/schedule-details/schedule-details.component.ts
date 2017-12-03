@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ScheduleService } from '../schedule/schedule.service';
 import { Subscription } from 'rxjs/Subscription';
 
@@ -8,14 +8,15 @@ import { Subscription } from 'rxjs/Subscription';
   styleUrls: ['./schedule-details.component.scss']
 })
 export class ScheduleDetailsComponent implements OnInit {
-  details: any;
-  detailsSub: Subscription;
+  selectedDay: any;
+  selectedDaySub: Subscription;
+  @Input() currentHour: number;
 
   constructor(private scheduleService: ScheduleService) { }
 
   ngOnInit() {
-    this.detailsSub = this.scheduleService.detailsChanged.subscribe(details => {
-      this.details = details;
+    this.selectedDaySub = this.scheduleService.selectedDayChanged.subscribe(selectedDay => {
+      this.selectedDay = selectedDay;
     })
   }
 }

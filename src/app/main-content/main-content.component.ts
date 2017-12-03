@@ -9,7 +9,7 @@ import { Subscription } from 'rxjs/Subscription';
   styleUrls: ['./main-content.component.scss']
 })
 export class MainContentComponent implements OnInit {
-  date = {};
+  date: any = {};
   dateSub: Subscription;
   
   constructor(private scheduleService: ScheduleService, private dateService: DateService) { }
@@ -19,5 +19,9 @@ export class MainContentComponent implements OnInit {
     this.dateSub = this.dateService.currentDateChanged.subscribe(newDate => {
       this.date = newDate;
     })
+  }
+
+  getCurrentHour() {
+    return this.date.hour;
   }
 }

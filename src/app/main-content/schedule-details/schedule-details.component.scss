@@ -1,0 +1,31 @@
+@import '../../../assets/variables';
+
+:host {
+  background-color: $color-primary-c;
+  display: inline-block;
+  width: 30%;
+}
+
+.title-hour {
+  color: $color-white;
+  font-family: $font-primary;
+  font-size: $font-size-xxl;
+  margin: $space-lg 0;
+  text-align: center;
+}
+
+.card-cartoon {
+  background-color: $color-white;
+  margin: $space-md;
+  margin-top: 0;
+  padding: $space-sm;
+}
+
+.card-cartoon__start-time {
+  color: $color-gray-dark;
+  font-family: $font-primary;
+  //-ms-transform: rotate(-90deg); /* IE 9 */
+  //-webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  //transform: rotate(-90deg);
+  //transform-origin: left top 0;
+}
