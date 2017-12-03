@@ -10,6 +10,9 @@ import { cartoonsFeatured } from '../../_data/cartoons-featured';
 export class CartoonListComponent implements OnInit {
   allCartoons: any;
   featuredCartoons: string[];
+  visibleFeaturedCartoons: string[];
+  maxVisibleFeaturedCartoons: number = 5;
+  startIndex: number = 0;  
   selectedCartoon: any;
   showCartoonDetailsModal: boolean = false;
 
@@ -27,5 +30,13 @@ export class CartoonListComponent implements OnInit {
 
   onCloseCartoonDetailsModal() {
     this.showCartoonDetailsModal = false;
+  }
+
+  onChangeVisibleCartoons(change) {
+    let newIndex = this.startIndex + change;
+    if (newIndex >= 0 && newIndex + this.maxVisibleFeaturedCartoons <= this.featuredCartoons.length)
+    { 
+      this.startIndex = newIndex;      
+    }
   }
 }
