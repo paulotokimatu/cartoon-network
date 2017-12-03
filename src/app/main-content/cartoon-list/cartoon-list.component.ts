@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { cartoonsDetails } from '../../_data/cartoons-details';
 import { cartoonsFeatured } from '../../_data/cartoons-featured';
 
@@ -8,6 +8,8 @@ import { cartoonsFeatured } from '../../_data/cartoons-featured';
   styleUrls: ['./cartoon-list.component.scss']
 })
 export class CartoonListComponent implements OnInit {
+  @Output() changeCartoonDetailsModal = new EventEmitter();
+  
   allCartoons: any;
   featuredCartoons: string[];
 
@@ -16,7 +18,9 @@ export class CartoonListComponent implements OnInit {
   ngOnInit() {
     this.allCartoons = cartoonsDetails;
     this.featuredCartoons = cartoonsFeatured;
-    console.log(this.allCartoons);
   }
 
+  onShowDetails() {
+    this.changeCartoonDetailsModal.emit(true);
+  }
 }

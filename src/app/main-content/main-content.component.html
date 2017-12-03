@@ -4,6 +4,9 @@
 
 <app-schedule-details></app-schedule-details>
 
-<app-cartoon-list></app-cartoon-list>
+<app-cartoon-list (changeCartoonDetailsModal)="onShowCartoonDetailsModal($event)"></app-cartoon-list>
 
-<app-cartoon-details-modal></app-cartoon-details-modal>
+<app-cartoon-details-modal
+  *ngIf="showCartoonDetailsModal"
+  (changeCartoonDetailsModal)="onShowCartoonDetailsModal($event)">
+</app-cartoon-details-modal>
