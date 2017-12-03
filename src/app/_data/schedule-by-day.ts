@@ -496,7 +496,7 @@ export const scheduleByDay = {
       hour: '22',
       details: [
         {
-          startTime: '00',
+          startTime: '22:00',
           showId: 'teenTitans'
         },
         {
@@ -577,7 +577,7 @@ export const scheduleByDay = {
       hour: '05',
       details: [
         {
-          startTime: '00:00',
+          startTime: '05:00',
           showId: 'weasel'
         },
         {

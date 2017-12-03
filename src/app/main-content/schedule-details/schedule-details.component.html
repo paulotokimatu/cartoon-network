@@ -1,8 +1,13 @@
 <div class="title-hour">{{selectedDay.hour}}h</div>
 
 <div *ngFor="let show of selectedDay?.details" class="card-cartoon">
-  <span class="card-cartoon__start-time">
-    {{show.startTime}}    
-  </span>
-  {{show.showId}}
+  <div>
+    <div class="start-time">{{show.startTime}}</div>      
+  </div>
+  <div>
+    {{show.showId}}
+  </div>
+  <div>
+    {{show.showId}}
+  </div>
 </div>
