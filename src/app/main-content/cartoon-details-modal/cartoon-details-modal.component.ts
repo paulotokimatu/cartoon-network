@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output, Input } from '@angular/core';
 
 @Component({
   selector: 'app-cartoon-details-modal',
@@ -10,6 +10,7 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 })
 export class CartoonDetailsModalComponent implements OnInit {
   @Output() changeCartoonDetailsModal = new EventEmitter();
+  @Input() selectedCartoonDetails;
   
   constructor() { }
 

@@ -9,6 +9,7 @@ import { cartoonsFeatured } from '../../_data/cartoons-featured';
 })
 export class CartoonListComponent implements OnInit {
   @Output() changeCartoonDetailsModal = new EventEmitter();
+  @Output() changeSelectedCartoon = new EventEmitter();
   
   allCartoons: any;
   featuredCartoons: string[];
@@ -20,7 +21,8 @@ export class CartoonListComponent implements OnInit {
     this.featuredCartoons = cartoonsFeatured;
   }
 
-  onShowDetails() {
+  onShowDetails(cartoon) {
     this.changeCartoonDetailsModal.emit(true);
+    this.changeSelectedCartoon.emit(cartoon);
   }
 }

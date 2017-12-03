@@ -12,6 +12,8 @@ export class MainContentComponent implements OnInit {
   date = {};
   dateSub: Subscription;
   showCartoonDetailsModal: boolean = true;
+  //TODO model for cartoons
+  selectedCartoon: any = {};
   
   constructor(private scheduleService: ScheduleService, private dateService: DateService) { }
 
@@ -24,5 +26,9 @@ export class MainContentComponent implements OnInit {
 
   onShowCartoonDetailsModal(value: boolean) {
     this.showCartoonDetailsModal = value;
+  }
+
+  onChangeSelectedCartoon(newCartoon) {
+    this.selectedCartoon = newCartoon;
   }
 }
