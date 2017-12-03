@@ -1,9 +1,13 @@
+@import 'assets/variables';
+
 @font-face {
   font-family: "cn-latin";
   src: url("/assets/fonts/cnlatin.woff") format("woff");
 }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body {
   border: 0;
+  font-family: $font-support;
   margin: 0;
 }
