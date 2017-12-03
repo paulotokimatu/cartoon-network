@@ -12,6 +12,7 @@ import { AdsComponent } from './header/ads/ads.component';
 import { ScheduleService } from "./main-content/schedule/schedule.service";
 import { ScheduleDetailsComponent } from './main-content/schedule-details/schedule-details.component';
 import { DateService } from './main-content/date.service';
+import { CartoonDetailsModalComponent } from './main-content/cartoon-details-modal/cartoon-details-modal.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { DateService } from './main-content/date.service';
     CartoonListComponent,
     AdsComponent,
     ScheduleDetailsComponent,
+    CartoonDetailsModalComponent,
   ],
   imports: [
     BrowserModule

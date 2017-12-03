@@ -25,4 +25,4 @@ export const cartoonsDetails = {
     director: 'Juliano Enrico',
     casting: ''
   }
-}
+};
