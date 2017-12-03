@@ -22,3 +22,17 @@
   width: 50%;
 }
 
+.publicidade-message {
+  font-size: $font-size-xxs;
+  text-transform: uppercase;
+  -webkit-transform-origin: 35% 147%;
+  -moz-transform-origin: 35% 147%;
+  -ms-transform-origin: 35% 147%;
+  -o-transform-origin: 35% 147%;
+  transform-origin: 35% 147%;
+  -webkit-transform: rotate(-90deg); 
+  -moz-transform: rotate(-90deg); 
+  -ms-transform: rotate(-90deg); 
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);  
+}
