@@ -1,6 +1,12 @@
-<span *ngFor="let cartoon of featuredCartoons" (click)="onOpenCartoonDetailsModal(allCartoons[cartoon])">
-  {{allCartoons[cartoon].titlePt}}
-</span>
+<div class="featured-cartoons">
+  <img class="arrow" src="assets/icons/arrow_previous_white.svg" alt="">    
+  <span *ngFor="let cartoon of featuredCartoons" (click)="onOpenCartoonDetailsModal(allCartoons[cartoon])">
+    <img class="img-char" src="assets/imgs/cartoon_featured/{{cartoon}}.png" alt="{{cartoon}}">
+  </span>
+  <img class="arrow" src="assets/icons/arrow_next_white.svg" alt="">    
+</div>
+
+<div class="decorator-line"></div>
 
 <app-cartoon-details-modal
   *ngIf="showCartoonDetailsModal"
