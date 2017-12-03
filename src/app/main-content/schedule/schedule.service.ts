@@ -4,7 +4,7 @@ import { ScheduleHourDetails } from '../../_models/schedule-hour-details.model';
 
 export class ScheduleService {
   //TODO create model for details
-  detailsChanged = new Subject<ScheduleHourDetails>();
+  selectedDayChanged = new Subject<ScheduleHourDetails>();
 
   constructor() {
   }
@@ -13,7 +13,7 @@ export class ScheduleService {
     return scheduleByDay[formattedDate];
   }
 
-  setScheduleDetails(details) {
-    this.detailsChanged.next(details);
+  setScheduleDetails(selectedDay) {
+    this.selectedDayChanged.next(selectedDay);
   }
 }

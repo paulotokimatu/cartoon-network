@@ -3,7 +3,7 @@
 :host {
   display: inline-block;
   font-family: $font-primary;
-  margin: auto;
+  margin: auto $space-lg;
   width: 60%;
 }
 
@@ -11,10 +11,17 @@
   color: $color-white;
   cursor: pointer;
   display: inline-block;
+  font-size: $font-size-lg;
   height: 0;
   margin: $space-xs;
+  opacity: 0.75;
   padding-bottom: 18%;
+  transition: opacity 0.3s;
   width: 18%;
+}
+
+.hour-square:hover {
+  opacity: 1;
 }
 
 .hour-square:nth-child(3n+1) {

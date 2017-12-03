@@ -30,8 +30,8 @@ export class ScheduleComponent implements OnInit {
     this.schedule = this.scheduleService.getSchedule(this.date.formattedDate);
   }
 
-  onSetScheduleDetails(details) {
-    this.scheduleService.setScheduleDetails(details);
+  onSetScheduleDetails(selectedDay) {
+    this.scheduleService.setScheduleDetails(selectedDay);
   }
 
   onGetNextDay() {

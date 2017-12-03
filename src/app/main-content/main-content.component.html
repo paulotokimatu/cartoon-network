@@ -2,8 +2,9 @@
   {{date.dayWeek + ' ' + date.day}}   
 </div>
 
-<app-schedule></app-schedule>
-
-<app-schedule-details></app-schedule-details>
+<div class="schedule-container">
+  <app-schedule></app-schedule>
+  <app-schedule-details [currentHour]="getCurrentHour()"></app-schedule-details>
+</div>
 
 <app-cartoon-list></app-cartoon-list>

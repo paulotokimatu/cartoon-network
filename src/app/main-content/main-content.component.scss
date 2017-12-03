@@ -13,7 +13,11 @@
   color: $color-white;
   font-family: $font-primary;
   font-size: $font-size-xl;
-  margin: $space-lg 0;
   padding: $space-md;
   text-transform: uppercase;
+}
+
+.schedule-container {
+  display: flex;
+  margin: $space-lg 0;
 }
