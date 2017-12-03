@@ -22,7 +22,8 @@
   width: 50%;
 }
 
-.publicidade-message {
+// Called 'publicidade' because classes with 'ad' are blocked by Adblock
+.publicidade-label {
   font-size: $font-size-xxs;
   text-transform: uppercase;
   -webkit-transform-origin: 35% 147%;
