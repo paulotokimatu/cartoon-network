@@ -9,7 +9,7 @@
 .hour-square {
   color: $color-white;
   cursor: pointer;
-  display: inline-block;
+  float: left;
   font-size: $font-size-lg;
   height: 0;
   margin: $space-xs;
@@ -36,7 +36,7 @@
 }
 
 .next-square {
-  display: inline-block;
+  float: left;
   height: 0;
   margin: $space-xs;
   padding-bottom: 18%;
@@ -44,10 +44,10 @@
 
   .arrow-next {
     cursor: pointer;
-    max-height: 90px;
+    margin-left: $space-md;
     opacity: 0.75;
     transition: opacity 0.3s;
-    width: 90%;
+    width: 65%;
   }
 
   .arrow-next:hover {
