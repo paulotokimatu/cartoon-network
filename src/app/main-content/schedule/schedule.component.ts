@@ -15,6 +15,7 @@ export class ScheduleComponent implements OnInit {
   //TODO model for date
   date: any;
   dateSub: Subscription;
+  selectedSquare: number;
   private squareClasses: string[] = ['hour-square--a', 'hour-square--b', 'hour-square--c'];
 
   constructor(private scheduleService: ScheduleService, private dateService: DateService) { }
@@ -28,15 +29,16 @@ export class ScheduleComponent implements OnInit {
     this.updateSchedule();
 
     //TODO: schedule-details doesn't receive this update
-    console.log(this.currentHour);
-    this.onSetScheduleDetails(this.schedule[this.currentHour]);
+    //console.log(this.currentHour);
+    //this.onSetScheduleDetails(this.schedule[this.currentHour], 0);
   }
 
   updateSchedule() {
     this.schedule = this.scheduleService.getSchedule(this.date.formattedDate);
   }
 
-  onSetScheduleDetails(selectedHour) {
+  onSetScheduleDetails(selectedHour, i) {
+    this.selectedSquare = i;
     this.scheduleService.setScheduleDetails(selectedHour);
   }
 

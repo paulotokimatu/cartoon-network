@@ -1,7 +1,10 @@
 <div
-  *ngFor="let hourData of schedule"
-  (click)="onSetScheduleDetails(hourData)"
-  [ngClass]="{ 'hour-square--today': isCurrentHour(hourData.hour) }"
+  *ngFor="let hourData of schedule; let i = index"
+  (click)="onSetScheduleDetails(hourData, i)"
+  [ngClass]="{
+    'hour-square--today': isCurrentHour(hourData.hour),
+    'hour-square--active': i === selectedSquare
+  }"
   class="hour-square {{squareColor(hourData.hour)}}">
   {{hourData.hour}}h
 </div>

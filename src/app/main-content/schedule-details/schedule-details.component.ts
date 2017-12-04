@@ -1,7 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { ScheduleService } from '../schedule/schedule.service';
 import { Subscription } from 'rxjs/Subscription';
-//import { cartoonsDetails } from '../../_data/cartoons-details';
 
 @Component({
   selector: 'app-schedule-details',
