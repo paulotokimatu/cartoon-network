@@ -1,15 +1,32 @@
 @import '../../../assets/variables';
 
 :host {
-  background-color: $color-primary-c;
   display: inline-block;
   width: 30%;
 }
 
+.container-schedule-details {
+  box-sizing: border-box;
+  height: 100%;  
+}
+
+.container-schedule-details--a {
+  background-color: $color-primary-a;
+}
+
+.container-schedule-details--b {
+  background-color: $color-primary-b;
+}
+
+.container-schedule-details--c {
+  background-color: $color-primary-c;
+}
+
 .title-hour {
+  box-sizing: border-box;
   color: $color-white;
   font-size: $font-size-xxl;
-  margin: $space-lg 0;
+  padding: $space-lg 0;
   text-align: center;
 }
 

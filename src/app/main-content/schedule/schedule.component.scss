@@ -23,20 +23,32 @@
   opacity: 1;
 }
 
-.hour-square:nth-child(3n+1) {
+.hour-square--a {
   background-color:$color-primary-a;
 }
 
-.hour-square:nth-child(3n+2) {
+.hour-square--b {
   background-color:$color-primary-b;
 }
 
-.hour-square:nth-child(3n+3) {
-  background-color:$color-primary-c;
+.hour-square--c {
+  background-color: $color-primary-c;
 }
 
 .hour-square.hour-square--today {
   background: $color-dark;
+}
+
+.hour-square--today.hour-square--a {
+  color: $color-primary-a;
+}
+
+.hour-square--today.hour-square--b {
+  color: $color-primary-b;
+}
+
+.hour-square--today.hour-square--c {
+  color: $color-primary-c;
 }
 
 .next-square {

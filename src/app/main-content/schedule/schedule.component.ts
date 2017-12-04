@@ -10,11 +10,12 @@ import { Subscription } from 'rxjs/Subscription';
   styleUrls: ['./schedule.component.scss']
 })
 export class ScheduleComponent implements OnInit {
+  @Input() currentHour: number;
   schedule: Schedule;
   //TODO model for date
   date: any;
   dateSub: Subscription;
-  @Input() currentHour: number;  
+  private squareClasses: string[] = ['hour-square--a', 'hour-square--b', 'hour-square--c'];
 
   constructor(private scheduleService: ScheduleService, private dateService: DateService) { }
 
@@ -44,7 +45,11 @@ export class ScheduleComponent implements OnInit {
   }
 
   isCurrentHour(hour) {
-    console.log(this.currentHour === parseInt(hour));
     return this.currentHour === parseInt(hour);
+  }
+
+  squareColor(hour) {
+    let intHour = parseInt(hour);
+    return this.squareClasses[intHour % 3];
   }
 }

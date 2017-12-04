@@ -11,6 +11,11 @@ import { Subscription } from 'rxjs/Subscription';
 export class ScheduleDetailsComponent implements OnInit {
   selectedHour: any;
   selectedHourSub: Subscription;
+  private containerClasses: string[] = [
+    'container-schedule-details--a',
+    'container-schedule-details--b',
+    'container-schedule-details--c'
+  ];
   //allCartoonsDetails: any = cartoonsDetails;
 
   constructor(private scheduleService: ScheduleService) { }
@@ -19,5 +24,10 @@ export class ScheduleDetailsComponent implements OnInit {
     this.selectedHourSub = this.scheduleService.selectedHourChanged.subscribe(selectedHour => {
       this.selectedHour = selectedHour;
     })
+  }
+
+  containerColor(hour) {
+    let intHour = parseInt(hour);
+    return this.containerClasses[intHour % 3];
   }
 }
