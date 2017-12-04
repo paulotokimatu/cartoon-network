@@ -1,6 +1,6 @@
 export class ScheduleHourDetails {
   constructor (
     public startTime: string,
-    public showId: string
+    public cartoonId: string
   ){}
 }

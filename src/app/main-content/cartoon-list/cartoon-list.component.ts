@@ -17,7 +17,6 @@ export class CartoonListComponent implements OnInit {
   constructor(private cartoonListService: CartoonListService) { }
 
   ngOnInit() {
-    console.log(this.cartoonListService.getFeaturedCartoons());
     this.featuredCartoons = this.cartoonListService.getFeaturedCartoons();
   }
 

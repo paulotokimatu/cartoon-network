@@ -23,11 +23,12 @@ export class ScheduleDetailsComponent implements OnInit {
   ngOnInit() {
     this.selectedHourSub = this.scheduleService.selectedHourChanged.subscribe(selectedHour => {
       this.selectedHour = selectedHour;
+      console.log(this.selectedHour);
     })
   }
 
-  onOpenScheduleDetailsModal(cartoon) {
-    this.selectedCartoon = cartoon;
+  onOpenScheduleDetailsModal(cartoonId) {
+    this.selectedCartoon = cartoonId;
     this.showScheduleDetailsModal = true;
   }
 

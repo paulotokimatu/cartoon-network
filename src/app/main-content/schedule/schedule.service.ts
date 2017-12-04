@@ -16,4 +16,8 @@ export class ScheduleService {
   setScheduleDetails(selectedHour) {
     this.selectedHourChanged.next(selectedHour);
   }
+
+  getCartoonDetails(cartoonId) {
+
+  }
 }

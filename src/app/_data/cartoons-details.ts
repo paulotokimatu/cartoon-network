@@ -1,5 +1,6 @@
 export const cartoonsDetails = {
   regularShow: {
+    cartoonId: 'regularShow',
     titlePt: 'Apenas Um Show',
     titleEn: 'Regular Show',
     duration: 30,
@@ -13,6 +14,7 @@ export const cartoonsDetails = {
     casting: 'J.G. Quintel'
   },
   jorelsBrother: {
+    cartoonId: 'jorelsBrother',
     titlePt: 'Irmão do Jorel',
     titleEn: "Jorel's Brother",
     duration: 10,
@@ -26,6 +28,7 @@ export const cartoonsDetails = {
     casting: ''
   },
   thePowerpuffGirls: {
+    cartoonId: 'thePowerpuffGirls',
     titlePt: 'As Meninas Superpoderosas',
     titleEn: 'The Powerpuff Girls',
     duration: 60,
@@ -39,6 +42,7 @@ export const cartoonsDetails = {
     casting: ''
   },
   tomAndJerry: {
+    cartoonId: 'tomAndJerry',
     titlePt: 'O Show de Tom e Jerry',
     titleEn: 'The Tom & Jerry Show',
     duration: 15,
@@ -52,6 +56,7 @@ export const cartoonsDetails = {
     casting: ''
   },
   dragonBall: {
+    cartoonId: 'dragonBall',
     titlePt: 'Dragon Ball Super',
     titleEn: 'Dragon Ball Super',
     duration: 30,
@@ -59,12 +64,13 @@ export const cartoonsDetails = {
     origin: 'Japão',
     contentClassification: '04',
     indicativeClassification: '10',
-    synopsis: 'Após a derrota de Majin Buu, Goku assumiu o novo papel de¿ produtor de rabanetes?! A Terra está em paz e nossos heróis agora levam vidas normais. Mas eles não podem se acomodar. Num lugar distante, o poderoso Deus da Destruição, Beerus, desperta para uma profecia que revela seu fim pelas mãos de um ser ainda mais formidável. Quando a busca pelo Deus Saiyan os traz à Terra, poderão Goku e seus amigos enfrentar seu inimigo mais forte até hoje?',
+    synopsis: 'Após a derrota de Majin Buu, Goku assumiu o novo papel de... produtor de rabanetes?! A Terra está em paz e nossos heróis agora levam vidas normais. Mas eles não podem se acomodar. Num lugar distante, o poderoso Deus da Destruição, Beerus, desperta para uma profecia que revela seu fim pelas mãos de um ser ainda mais formidável. Quando a busca pelo Deus Saiyan os traz à Terra, poderão Goku e seus amigos enfrentar seu inimigo mais forte até hoje?',
     genre: 'Anime',
     director: '',
     casting: ''
   },
   scoobyDoo: {
+    cartoonId: 'scoobyDoo',
     titlePt: 'Que Legal, Scooby-Doo!',
     titleEn: 'Be Cool Scooby Doo',
     duration: 30,
