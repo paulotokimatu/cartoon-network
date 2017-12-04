@@ -8,7 +8,6 @@
 
 .title-hour {
   color: $color-white;
-  font-family: $font-primary;
   font-size: $font-size-xxl;
   margin: $space-lg 0;
   text-align: center;
@@ -17,6 +16,7 @@
 .card-cartoon {
   background-color: $color-white;
   display: flex;
+  font-family: $font-support;
   height: 80px;
   justify-content: space-between;
   margin: $space-md;
