@@ -1,13 +1,20 @@
-<div>
-  {{selectedCartoonDetails.titlePt}}
+<div class="container-content">
+  <button class="close-btn">
+    <img src="assets/icons/close.svg" alt="Close">
+  </button>
+  <div class="banner-title">
+    <img class="profile-img" src="assets/imgs/profile/{{selectedCartoon}}.png" alt="{{allCartoons[selectedCartoon].titlePt}}">      
+    <div class="title">
+      <div class="title-pt">{{allCartoons[selectedCartoon].titlePt}}</div>
+      <div class="title-en">{{allCartoons[selectedCartoon].titleEn}}</div>
+    </div>
+    <span class="indicative-badge">{{allCartoons[selectedCartoon].indicativeClassification}}</span>    
+  </div>
+  <div class="container-card-day">
+    <div *ngFor="let day of allCartoons[selectedCartoon].schedule" class="card-day">
+      <div class="weekday">{{day.date | date: 'EEE'}}</div>
+      <div class="day">{{day.date | date: 'dd'}}</div>
+      <div class="hour">{{day.hour}}</div>
+    </div>
+  </div>
 </div>
-<div>{{selectedCartoonDetails.titleEn}}</div>
-<div>{{selectedCartoonDetails.duration}}</div>
-<div>{{selectedCartoonDetails.year}}</div>
-<div>{{selectedCartoonDetails.origin}}</div>
-<div>{{selectedCartoonDetails.contentClassification}}</div>
-<div>{{selectedCartoonDetails.indicativeClassification}}</div>
-<div>{{selectedCartoonDetails.synopsis}}</div>
-<div>{{selectedCartoonDetails.genre}}</div>
-<div>{{selectedCartoonDetails.director}}</div>
-<div>{{selectedCartoonDetails.casting}}</div>

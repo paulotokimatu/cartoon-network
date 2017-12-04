@@ -35,3 +35,23 @@
 .hour-square:nth-child(3n+3) {
   background-color:$color-primary-c;
 }
+
+.next-square {
+  display: inline-block;
+  height: 0;
+  margin: $space-xs;
+  padding-bottom: 18%;
+  width: 18%;
+
+  .arrow-next {
+    cursor: pointer;
+    max-height: 90px;
+    opacity: 0.75;
+    transition: opacity 0.3s;
+    width: 90%;
+  }
+
+  .arrow-next:hover {
+    opacity: 1;    
+  }
+}

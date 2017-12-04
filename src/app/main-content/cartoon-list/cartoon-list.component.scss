@@ -3,3 +3,35 @@
 :host {
   display: block;
 }
+
+.featured-cartoons {
+  background-color: $color-primary-b;
+  height: 90px;
+  position: relative;
+  text-align: center;
+
+  .arrow {
+    bottom: 40px;
+    color: $color-white;
+    cursor: pointer;
+    margin: 0 $space-lg;
+    position: relative;
+    width: 35px;
+  }
+
+  .img-char {
+    bottom: 10px;
+    cursor: pointer;
+    height: 120px;
+    margin: 0 $space-lg;
+    position: relative;
+  }
+}
+
+.decorator-line {
+  background-color: $color-primary-a;
+  border-bottom: 5px solid $color-primary-c;
+  display: inline-block;
+  height: 16px;
+  width: 100%;
+}
