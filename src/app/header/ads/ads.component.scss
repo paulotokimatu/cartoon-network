@@ -9,7 +9,23 @@
 }
 
 .cartoon-ad {
+  margin: 0 $space-lg;
+  text-align: right;
 
+  .start-time {
+    font-size: $font-size-lg;
+  }
+
+  .title {
+    font-size: $font-size-xs;
+    text-transform: uppercase;
+  }
+
+  .details-btn {
+    background-color: $color-primary-c;
+    color: $color-dark;
+    padding: 0 $space-sm;
+  }
 }
 
 .block-message {
