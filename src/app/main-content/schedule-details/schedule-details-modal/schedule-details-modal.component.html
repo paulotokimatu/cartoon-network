@@ -1,0 +1,13 @@
+<div class="container-content" (click)="$event.stopPropagation()">
+  <button class="close-btn" (click)="onClose()">
+    <img src="assets/icons/close.svg" alt="Close">
+  </button>
+  <div class="banner-title">
+    <img class="profile-img" src="assets/imgs/profile/{{selectedCartoon}}.png" alt="{{allCartoons[selectedCartoon].titlePt}}">      
+    <div class="title">
+      <div class="title-pt">{{allCartoons[selectedCartoon].titlePt}}</div>
+      <div class="title-en">{{allCartoons[selectedCartoon].titleEn}}</div>
+    </div>
+    <span class="indicative-badge">{{allCartoons[selectedCartoon].indicativeClassification}}</span>    
+  </div>
+</div>

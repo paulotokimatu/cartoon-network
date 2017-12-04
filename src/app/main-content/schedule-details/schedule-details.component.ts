@@ -8,6 +8,8 @@ import { Subscription } from 'rxjs/Subscription';
   styleUrls: ['./schedule-details.component.scss']
 })
 export class ScheduleDetailsComponent implements OnInit {
+  selectedCartoon: any;
+  showScheduleDetailsModal: boolean = false;
   selectedHour: any;
   selectedHourSub: Subscription;
   private containerClasses: string[] = [
@@ -15,7 +17,6 @@ export class ScheduleDetailsComponent implements OnInit {
     'container-schedule-details--b',
     'container-schedule-details--c'
   ];
-  //allCartoonsDetails: any = cartoonsDetails;
 
   constructor(private scheduleService: ScheduleService) { }
 
@@ -23,6 +24,15 @@ export class ScheduleDetailsComponent implements OnInit {
     this.selectedHourSub = this.scheduleService.selectedHourChanged.subscribe(selectedHour => {
       this.selectedHour = selectedHour;
     })
+  }
+
+  onOpenScheduleDetailsModal(cartoon) {
+    this.selectedCartoon = cartoon;
+    this.showScheduleDetailsModal = true;
+  }
+
+  onCloseScheduleDetailsModal() {
+    this.showScheduleDetailsModal = false;
   }
 
   containerColor(hour) {
