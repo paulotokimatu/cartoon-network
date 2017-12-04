@@ -1,5 +1,5 @@
 import { Component, EventEmitter, OnInit, Output, Input } from '@angular/core';
-import { scheduleByCartoon } from '../../_data/schedule-by-cartoon';
+import { scheduleByCartoon } from '../../../_data/schedule-by-cartoon';
 
 @Component({
   selector: 'app-cartoon-details-modal',
