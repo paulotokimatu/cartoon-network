@@ -1,4 +1,8 @@
-<div *ngFor="let hourData of schedule" (click)="onSetScheduleDetails(hourData)" class="hour-square">
+<div
+  *ngFor="let hourData of schedule"
+  (click)="onSetScheduleDetails(hourData)"
+  [ngClass]="{'hour-square--today': isCurrentHour(hourData.hour)}"
+  class="hour-square">
   {{hourData.hour}}h
 </div>
 <div class="next-square">

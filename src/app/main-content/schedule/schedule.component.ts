@@ -27,6 +27,7 @@ export class ScheduleComponent implements OnInit {
     this.updateSchedule();
 
     //TODO: schedule-details doesn't receive this update
+    console.log(this.currentHour);
     this.onSetScheduleDetails(this.schedule[this.currentHour]);
   }
 
@@ -40,5 +41,10 @@ export class ScheduleComponent implements OnInit {
 
   onGetNextDay() {
     this.dateService.getNextDay();
+  }
+
+  isCurrentHour(hour) {
+    console.log(this.currentHour === parseInt(hour));
+    return this.currentHour === parseInt(hour);
   }
 }
