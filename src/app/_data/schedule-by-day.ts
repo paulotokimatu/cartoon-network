@@ -834,7 +834,7 @@ export const scheduleByDay = {
       hour: '22',
       details: [
         {
-          startTime: '00',
+          startTime: '22:00',
           showId: 'regularShow'
         }
       ]
