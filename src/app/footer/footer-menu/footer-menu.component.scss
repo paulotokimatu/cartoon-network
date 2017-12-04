@@ -15,10 +15,15 @@
   max-width: $main-size;  
   padding: $space-sm 0;
   text-transform: uppercase;
-}
 
-.menu__item {
-  display: inline-block;
-  padding: $space-sm $space-md;
-  text-decoration: center;
+  .item {
+    cursor: pointer;
+    display: inline-block;
+    padding: $space-sm $space-md;
+    text-decoration: center;
+  }
+  
+  .item:hover {
+    color: $color-gray-light;
+  }
 }

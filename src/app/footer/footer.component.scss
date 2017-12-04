@@ -1,15 +1,27 @@
 @import '../../assets/variables';
 
-.footer {
-  background-color: $color-gray;
-  color: $color-gray-light;
+:host {
+  background-color: $color-gray;  
   display: block;
-  font-size: $font-size-xs;
 }
 
-.footer__main-text {
+.footer {
+  color: $color-gray-light;
+  display: flex;
+  font-size: $font-size-xs;
+  justify-content: space-between;
   margin: auto;
   max-width: $main-size;
-  padding: $space-md;
-  text-align: center;
+  padding: $space-lg 0;
+  
+  .main-text {
+    margin: auto;
+    max-width: $main-size;
+    padding: 0 $space-md;
+    text-align: center;
+  }
+  
+  .logo {
+    align-self: center
+  }
 }
