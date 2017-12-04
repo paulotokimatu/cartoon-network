@@ -1,5 +1,5 @@
-<div class="container-content">
-  <button class="close-btn">
+<div class="container-content" (click)="$event.stopPropagation()">
+  <button class="close-btn" (click)="onClose()">
     <img src="assets/icons/close.svg" alt="Close">
   </button>
   <div class="banner-title">
