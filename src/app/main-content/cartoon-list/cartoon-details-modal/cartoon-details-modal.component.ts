@@ -1,5 +1,4 @@
 import { Component, EventEmitter, OnInit, Output, Input } from '@angular/core';
-import { scheduleByCartoon } from '../../../_data/schedule-by-cartoon';
 
 @Component({
   selector: 'app-cartoon-details-modal',
@@ -12,7 +11,6 @@ import { scheduleByCartoon } from '../../../_data/schedule-by-cartoon';
 export class CartoonDetailsModalComponent implements OnInit {
   @Output() changeCartoonDetailsModal = new EventEmitter();
   @Input() selectedCartoon;
-  allCartoons: any = scheduleByCartoon;
   
   constructor() { }
 

@@ -16,6 +16,7 @@ import { ScheduleDetailsComponent } from './main-content/schedule-details/schedu
 import { DateService } from './main-content/date.service';
 import { CartoonDetailsModalComponent } from './main-content/cartoon-list/cartoon-details-modal/cartoon-details-modal.component';
 import { ScheduleDetailsModalComponent } from './main-content/schedule-details/schedule-details-modal/schedule-details-modal.component';
+import { CartoonListService } from './main-content/cartoon-list/cartoon-list.service';
 
 registerLocaleData(localePt);
 
@@ -39,6 +40,7 @@ registerLocaleData(localePt);
   providers: [
     ScheduleService,
     DateService,
+    CartoonListService,
     { provide: LOCALE_ID, useValue: "pt-BR" },
   ],
   bootstrap: [AppComponent]

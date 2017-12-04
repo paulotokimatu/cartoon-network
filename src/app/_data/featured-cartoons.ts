@@ -1,4 +1,4 @@
-export const cartoonsFeatured = [
+export const featuredCartoons = [
   'regularShow',
   'jorelsBrother',
   'thePowerpuffGirls',
