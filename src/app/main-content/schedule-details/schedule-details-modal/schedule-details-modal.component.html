@@ -3,11 +3,24 @@
     <img src="assets/icons/close.svg" alt="Close">
   </button>
   <div class="banner-title">
-    <img class="profile-img" src="assets/imgs/profile/{{selectedCartoon}}.png" alt="{{allCartoons[selectedCartoon].titlePt}}">      
+    <img class="profile-img" src="assets/imgs/profile/{{selectedCartoon.cartoonId}}.png" alt="{{selectedCartoon.titlePt}}">
     <div class="title">
-      <div class="title-pt">{{allCartoons[selectedCartoon].titlePt}}</div>
-      <div class="title-en">{{allCartoons[selectedCartoon].titleEn}}</div>
+      <div class="title-pt">{{selectedCartoon.titlePt}}</div>
+      <div class="title-en">{{selectedCartoon.titleEn}}</div>
     </div>
-    <span class="indicative-badge">{{allCartoons[selectedCartoon].indicativeClassification}}</span>    
+    <span class="indicative-badge">{{selectedCartoon.indicativeClassification}}</span>    
+  </div>
+  <div class="container-synopsis">
+    {{selectedCartoon.synopsis}}
+  </div>
+  <div class="container-misc">
+    <div class="info"><span class="label">Duração:</span> {{selectedCartoon.duration}} minutos</div>
+    <div class="info"><span class="label">Ano de produção:</span> {{selectedCartoon.year}}</div>
+    <div class="info"><span class="label">Pais de origem:</span> {{selectedCartoon.origin}}</div>
+    <div class="info"><span class="label">Classificação de conteúdo:</span> {{selectedCartoon.contentClassification}}</div>
+    <div class="info"><span class="label">Classificação indicativa:</span> {{selectedCartoon.indicativeClassification}}</div>
+    <div class="info"><span class="label">Gênero:</span> {{selectedCartoon.genre}}</div>
+    <div class="info"><span class="label">Diretor:</span> {{selectedCartoon.director}}</div>
+    <div class="info"><span class="label">Casting:</span> {{selectedCartoon.casting}}</div>
   </div>
 </div>

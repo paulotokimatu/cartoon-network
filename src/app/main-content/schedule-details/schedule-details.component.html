@@ -1,7 +1,7 @@
 <div class="container-schedule-details {{containerColor(selectedHour?.hour)}}">
   <div class="title-hour">{{selectedHour?.hour}}h</div>
   
-  <div *ngFor="let cartoon of selectedHour?.details" (click)="onOpenScheduleDetailsModal(cartoon)" class="card-cartoon">
+  <div *ngFor="let cartoon of selectedHour?.details" (click)="onOpenScheduleDetailsModal(cartoon.cartoonId)" class="card-cartoon">
     <div>
       <div class="start-time">{{cartoon.startTime}}</div>      
     </div>
