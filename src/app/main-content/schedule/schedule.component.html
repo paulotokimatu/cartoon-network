@@ -1,5 +1,5 @@
-<div *ngFor="let day of schedule" (click)="onSetScheduleDetails(day)" class="hour-square">
-  {{day.hour}}h
+<div *ngFor="let hourData of schedule" (click)="onSetScheduleDetails(hourData)" class="hour-square">
+  {{hourData.hour}}h
 </div>
 <div class="next-square">
   <img (click)="onGetNextDay()" class="arrow-next" src="assets/icons/arrow_next_black.svg" alt="">    

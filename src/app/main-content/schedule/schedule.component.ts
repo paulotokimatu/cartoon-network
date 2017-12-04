@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ScheduleService } from './schedule.service';
 import { Schedule } from '../../_models/schedule.model';
 import { DateService } from '../date.service';
@@ -14,6 +14,7 @@ export class ScheduleComponent implements OnInit {
   //TODO model for date
   date: any;
   dateSub: Subscription;
+  @Input() currentHour: number;  
 
   constructor(private scheduleService: ScheduleService, private dateService: DateService) { }
 
@@ -24,14 +25,17 @@ export class ScheduleComponent implements OnInit {
       this.updateSchedule();
     })
     this.updateSchedule();
+
+    //TODO: schedule-details doesn't receive this update
+    this.onSetScheduleDetails(this.schedule[this.currentHour]);
   }
 
   updateSchedule() {
     this.schedule = this.scheduleService.getSchedule(this.date.formattedDate);
   }
 
-  onSetScheduleDetails(selectedDay) {
-    this.scheduleService.setScheduleDetails(selectedDay);
+  onSetScheduleDetails(selectedHour) {
+    this.scheduleService.setScheduleDetails(selectedHour);
   }
 
   onGetNextDay() {
