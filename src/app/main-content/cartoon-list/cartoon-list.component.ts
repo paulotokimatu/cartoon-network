@@ -1,5 +1,5 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { cartoonsDetails } from '../../_data/cartoons-details';
+import { scheduleByCartoon } from '../../_data/schedule-by-cartoon';
 import { cartoonsFeatured } from '../../_data/cartoons-featured';
 
 @Component({
@@ -8,7 +8,6 @@ import { cartoonsFeatured } from '../../_data/cartoons-featured';
   styleUrls: ['./cartoon-list.component.scss']
 })
 export class CartoonListComponent implements OnInit {
-  allCartoons: any;
   featuredCartoons: string[];
   visibleFeaturedCartoons: string[];
   maxVisibleFeaturedCartoons: number = 5;
@@ -19,11 +18,11 @@ export class CartoonListComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.allCartoons = cartoonsDetails;
     this.featuredCartoons = cartoonsFeatured;
   }
 
   onOpenCartoonDetailsModal(cartoon) {
+    console.log(cartoon)
     this.selectedCartoon = cartoon;
     this.showCartoonDetailsModal = true;
   }

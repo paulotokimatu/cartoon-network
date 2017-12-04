@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, LOCALE_ID } from '@angular/core';
+import { registerLocaleData } from '@angular/common';
+import localePt from '@angular/common/locales/pt';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -13,6 +15,8 @@ import { ScheduleService } from "./main-content/schedule/schedule.service";
 import { ScheduleDetailsComponent } from './main-content/schedule-details/schedule-details.component';
 import { DateService } from './main-content/date.service';
 import { CartoonDetailsModalComponent } from './main-content/cartoon-details-modal/cartoon-details-modal.component';
+
+registerLocaleData(localePt);
 
 @NgModule({
   declarations: [
@@ -33,6 +37,7 @@ import { CartoonDetailsModalComponent } from './main-content/cartoon-details-mod
   providers: [
     ScheduleService,
     DateService,
+    { provide: LOCALE_ID, useValue: "pt-BR" },
   ],
   bootstrap: [AppComponent]
 })

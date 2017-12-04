@@ -1,6 +1,6 @@
 <div class="featured-cartoons">
   <img class="arrow" (click)="onChangeVisibleCartoons(-1)" src="assets/icons/arrow_previous_white.svg" alt="Previous cartoons">
-  <span *ngFor="let cartoon of featuredCartoons; let i = index;" (click)="onOpenCartoonDetailsModal(allCartoons[cartoon])">
+  <span *ngFor="let cartoon of featuredCartoons; let i = index;" (click)="onOpenCartoonDetailsModal(cartoon)">
     <img *ngIf="i >= startIndex && i < startIndex + maxVisibleFeaturedCartoons" class="img-char" src="assets/imgs/cartoon_featured/{{cartoon}}.png" alt="{{cartoon}}">
   </span>
   <img class="arrow" (click)="onChangeVisibleCartoons(1)" src="assets/icons/arrow_next_white.svg" alt="Next cartoons">
@@ -10,6 +10,6 @@
 
 <app-cartoon-details-modal
   *ngIf="showCartoonDetailsModal"
-  [selectedCartoonDetails]="selectedCartoon"
+  [selectedCartoon]="selectedCartoon"
   (changeCartoonDetailsModal)="onCloseCartoonDetailsModal()">
 </app-cartoon-details-modal>

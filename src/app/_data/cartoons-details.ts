@@ -27,7 +27,7 @@ export const cartoonsDetails = {
   },
   thePowerpuffGirls: {
     titlePt: 'As Meninas Superpoderosas',
-    titleEn: "The Powerpuff Girls",
+    titleEn: 'The Powerpuff Girls',
     duration: 60,
     year: 2016,
     origin: 'Estados Unidos',
@@ -40,7 +40,7 @@ export const cartoonsDetails = {
   },
   tomAndJerry: {
     titlePt: 'O Show de Tom e Jerry',
-    titleEn: "The Tom & Jerry Show",
+    titleEn: 'The Tom & Jerry Show',
     duration: 15,
     year: 2013,
     origin: 'Estados Unidos',
@@ -53,7 +53,7 @@ export const cartoonsDetails = {
   },
   dragonBall: {
     titlePt: 'Dragon Ball Super',
-    titleEn: "Dragon Ball Super",
+    titleEn: 'Dragon Ball Super',
     duration: 30,
     year: 2015,
     origin: 'Japão',
@@ -66,7 +66,7 @@ export const cartoonsDetails = {
   },
   scoobyDoo: {
     titlePt: 'Que Legal, Scooby-Doo!',
-    titleEn: "Be Cool Scooby Doo",
+    titleEn: 'Be Cool Scooby Doo',
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
