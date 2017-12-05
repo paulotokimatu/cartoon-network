@@ -3,15 +3,15 @@
     <img src="assets/icons/close.svg" alt="Close">
   </button>
   <div class="banner-title">
-    <img class="profile-img" src="assets/imgs/profile/{{selectedCartoon}}.png" alt="{{allCartoons[selectedCartoon].titlePt}}">      
+    <img class="profile-img" src="assets/imgs/profile/{{selectedCartoon.cartoonId}}.png" alt="{{selectedCartoon.titlePt}}">      
     <div class="title">
-      <div class="title-pt">{{allCartoons[selectedCartoon].titlePt}}</div>
-      <div class="title-en">{{allCartoons[selectedCartoon].titleEn}}</div>
+      <div class="title-pt">{{selectedCartoon.titlePt}}</div>
+      <div class="title-en">{{selectedCartoon.titleEn}}</div>
     </div>
-    <span class="indicative-badge">{{allCartoons[selectedCartoon].indicativeClassification}}</span>    
+    <span class="indicative-badge">{{selectedCartoon.indicativeClassification}}</span>    
   </div>
   <div class="container-card-day">
-    <div *ngFor="let day of allCartoons[selectedCartoon].schedule" class="card-day">
+    <div *ngFor="let day of selectedCartoon.schedule" class="card-day">
       <div class="weekday">{{day.date | date: 'EEE'}}</div>
       <div class="day">{{day.date | date: 'dd'}}</div>
       <div class="hour">{{day.hour}}</div>

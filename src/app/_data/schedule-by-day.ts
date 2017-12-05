@@ -5,7 +5,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '00:00',
-          showId: 'stevenUniverse'
+          cartoonId: 'stevenUniverse'
         }
       ]
     },
@@ -14,7 +14,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '01:00',
-          showId: 'adventureTime'
+          cartoonId: 'adventureTime'
         }
       ]
     },
@@ -23,7 +23,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '02:00',
-          showId: 'thePowerpuffGirls'
+          cartoonId: 'thePowerpuffGirls'
         }
       ]
     },
@@ -32,7 +32,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '03:00',
-          showId: 'gumball'
+          cartoonId: 'gumball'
         }
       ]
     },
@@ -41,11 +41,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '04:00',
-          showId: 'johnnyBravo'
+          cartoonId: 'johnnyBravo'
         },
         {
           startTime: '04:30',
-          showId: 'courage'
+          cartoonId: 'courage'
         }
       ]
     },
@@ -53,12 +53,12 @@ export const scheduleByDay = {
       hour: '05',
       details: [
         {
-          startTime: '00:00',
-          showId: 'campLazlo'
+          startTime: '05:00',
+          cartoonId: 'campLazlo'
         },
         {
           startTime: '05:30',
-          showId: 'dexter'
+          cartoonId: 'dexter'
         }
       ]
     },
@@ -67,11 +67,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '06:00',
-          showId: 'mrBean'
+          cartoonId: 'mrBean'
         },
         {
           startTime: '06:30',
-          showId: 'scoobyDoo'
+          cartoonId: 'scoobyDoo'
         }
       ]
     },
@@ -80,11 +80,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '07:00',
-          showId: 'pinkPanther'
+          cartoonId: 'pinkPanther'
         },
         {
           startTime: '07:30',
-          showId: 'gumball'
+          cartoonId: 'gumball'
         }
       ]
     },
@@ -93,11 +93,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '08:00',
-          showId: 'clarence'
+          cartoonId: 'clarence'
         },
         {
           startTime: '08:30',
-          showId: 'monica'
+          cartoonId: 'monica'
         }
       ]
     },
@@ -106,11 +106,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '09:00',
-          showId: 'lego'
+          cartoonId: 'lego'
         },
         {
           startTime: '09:30',
-          showId: 'teenTitans'
+          cartoonId: 'teenTitans'
         }
       ]
     },
@@ -119,11 +119,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '10:00',
-          showId: 'ben10'
+          cartoonId: 'ben10'
         },
         {
           startTime: '10:30',
-          showId: 'picapauAmarelo'
+          cartoonId: 'picapauAmarelo'
         }
       ]
     },
@@ -132,11 +132,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '11:00',
-          showId: 'jorelsBrother'
+          cartoonId: 'jorelsBrother'
         },
         {
           startTime: '11:30',
-          showId: 'trunkTrain'
+          cartoonId: 'trunkTrain'
         }
       ]
     },
@@ -145,7 +145,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '12:00',
-          showId: 'surfsUp'
+          cartoonId: 'surfsUp'
         }
       ]
     },
@@ -154,7 +154,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '13:45',
-          showId: 'weBareBears'
+          cartoonId: 'weBareBears'
         }
       ]
     },
@@ -163,7 +163,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '14:00',
-          showId: 'magisWords'
+          cartoonId: 'magisWords'
         }
       ]
     },
@@ -172,11 +172,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '15:00',
-          showId: 'regularShow'
+          cartoonId: 'regularShow'
         },
         {
           startTime: '15:30',
-          showId: 'teenTitans'
+          cartoonId: 'teenTitans'
         }
       ]
     },
@@ -185,11 +185,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '16:00',
-          showId: 'transformers'
+          cartoonId: 'transformers'
         },
         {
           startTime: '16:30',
-          showId: 'powerRangers'
+          cartoonId: 'powerRangers'
         }
       ]
     },
@@ -198,7 +198,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '17:00',
-          showId: 'weBareBears'
+          cartoonId: 'weBareBears'
         }
       ]
     },
@@ -207,11 +207,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '18:00',
-          showId: 'jorelsBrother'
+          cartoonId: 'jorelsBrother'
         },
         {
           startTime: '18:30',
-          showId: 'teenTitans'
+          cartoonId: 'teenTitans'
         }
       ]
     },
@@ -220,7 +220,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '19:00',
-          showId: 'magisWords'
+          cartoonId: 'magisWords'
         }
       ]
     },
@@ -229,7 +229,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '20:00',
-          showId: 'adventureTime'
+          cartoonId: 'adventureTime'
         }
       ]
     },
@@ -238,11 +238,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '21:30',
-          showId: 'adventureTime'
+          cartoonId: 'adventureTime'
         },
         {
           startTime: '21:45',
-          showId: 'gumball'
+          cartoonId: 'gumball'
         }
       ]
     },
@@ -251,11 +251,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '22:00',
-          showId: 'gumball'
+          cartoonId: 'gumball'
         },
         {
           startTime: '22:30',
-          showId: 'adventureTime'
+          cartoonId: 'adventureTime'
         }
       ]
     },
@@ -264,7 +264,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '23:00',
-          showId: 'dragonBall'
+          cartoonId: 'dragonBall'
         }
       ]
     }
@@ -275,7 +275,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '00:00',
-          showId: 'dragonBall'
+          cartoonId: 'dragonBall'
         }
       ]
     },
@@ -284,7 +284,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '01:00',
-          showId: 'thePowerpuffGirls'
+          cartoonId: 'thePowerpuffGirls'
         }
       ]
     },
@@ -293,7 +293,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '02:00',
-          showId: 'uncleGrandpa'
+          cartoonId: 'uncleGrandpa'
         }
       ]
     },
@@ -302,7 +302,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '03:00',
-          showId: 'stevenUniverse'
+          cartoonId: 'stevenUniverse'
         }
       ]
     },
@@ -311,11 +311,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '04:00',
-          showId: 'billyAndMandy'
+          cartoonId: 'billyAndMandy'
         },
         {
           startTime: '04:30',
-          showId: 'courage'
+          cartoonId: 'courage'
         }
       ]
     },
@@ -324,11 +324,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '00:00',
-          showId: 'weasel'
+          cartoonId: 'weasel'
         },
         {
           startTime: '05:30',
-          showId: 'dexter'
+          cartoonId: 'dexter'
         }
       ]
     },
@@ -337,7 +337,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '06:00',
-          showId: 'scoobyDooAndVampire'
+          cartoonId: 'scoobyDooAndVampire'
         }
       ]
     },
@@ -346,11 +346,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '07:15',
-          showId: 'bunnicula'
+          cartoonId: 'bunnicula'
         },
         {
           startTime: '07:30',
-          showId: 'clarence'
+          cartoonId: 'clarence'
         }
       ]
     },
@@ -359,7 +359,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '08:00',
-          showId: 'barbie'
+          cartoonId: 'barbie'
         }
       ]
     },
@@ -368,11 +368,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '09:00',
-          showId: 'weBareBears'
+          cartoonId: 'weBareBears'
         },
         {
           startTime: '09:30',
-          showId: 'uncleGrandpa'
+          cartoonId: 'uncleGrandpa'
         }
       ]
     },
@@ -381,11 +381,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '10:00',
-          showId: 'teenTitans'
+          cartoonId: 'teenTitans'
         },
         {
           startTime: '10:30',
-          showId: 'thePowerpuffGirls'
+          cartoonId: 'thePowerpuffGirls'
         }
       ]
     },
@@ -394,7 +394,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '11:00',
-          showId: 'monica'
+          cartoonId: 'monica'
         }
       ]
     },
@@ -403,7 +403,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '12:00',
-          showId: 'monsterHigh'
+          cartoonId: 'monsterHigh'
         }
       ]
     },
@@ -412,7 +412,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '13:00',
-          showId: 'weBareBears'
+          cartoonId: 'weBareBears'
         }
       ]
     },
@@ -421,7 +421,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '14:00',
-          showId: 'drSeuss'
+          cartoonId: 'drSeuss'
         }
       ]
     },
@@ -430,7 +430,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '15:00',
-          showId: 'drSeuss'
+          cartoonId: 'drSeuss'
         }
       ]
     },
@@ -439,7 +439,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '16:00',
-          showId: 'clarence'
+          cartoonId: 'clarence'
         }
       ]
     },
@@ -448,11 +448,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '17:00',
-          showId: 'teenTitans'
+          cartoonId: 'teenTitans'
         },
         {
           startTime: '17:30',
-          showId: 'trunkTrain'
+          cartoonId: 'trunkTrain'
         }
       ]
     },
@@ -461,7 +461,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '18:00',
-          showId: 'barbieVideoGame'
+          cartoonId: 'barbieVideoGame'
         }
       ]
     },
@@ -470,7 +470,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '19:15',
-          showId: 'thePowerpuffGirls'
+          cartoonId: 'thePowerpuffGirls'
         }
       ]
     },
@@ -479,7 +479,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '20:00',
-          showId: 'drSeuss'
+          cartoonId: 'drSeuss'
         }
       ]
     },
@@ -488,7 +488,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '21:45',
-          showId: 'weBareBears'
+          cartoonId: 'weBareBears'
         }
       ]
     },
@@ -497,11 +497,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '22:00',
-          showId: 'teenTitans'
+          cartoonId: 'teenTitans'
         },
         {
           startTime: '22:30',
-          showId: 'regularShow'
+          cartoonId: 'regularShow'
         }
       ]
     },
@@ -510,15 +510,15 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '23:00',
-          showId: 'jorelsBrother'
+          cartoonId: 'jorelsBrother'
         },
         {
           startTime: '23:30',
-          showId: 'dexter'
+          cartoonId: 'dexter'
         },
         {
           startTime: '23:45',
-          showId: 'tomAndJerry'
+          cartoonId: 'tomAndJerry'
         }
       ]
     }
@@ -529,7 +529,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '00:00',
-          showId: 'dragonBallZ'
+          cartoonId: 'dragonBallZ'
         }
       ]
     },
@@ -538,7 +538,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '01:00',
-          showId: 'dragonBallZ'
+          cartoonId: 'dragonBallZ'
         }
       ]
     },
@@ -547,7 +547,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '02:00',
-          showId: 'stevenUniverse'
+          cartoonId: 'stevenUniverse'
         }
       ]
     },
@@ -556,7 +556,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '03:00',
-          showId: 'gumball'
+          cartoonId: 'gumball'
         }
       ]
     },
@@ -565,11 +565,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '04:00',
-          showId: 'billyAndMandy'
+          cartoonId: 'billyAndMandy'
         },
         {
           startTime: '04:30',
-          showId: 'courage'
+          cartoonId: 'courage'
         }
       ]
     },
@@ -578,11 +578,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '05:00',
-          showId: 'weasel'
+          cartoonId: 'weasel'
         },
         {
           startTime: '05:30',
-          showId: 'dexter'
+          cartoonId: 'dexter'
         }
       ]
     },
@@ -591,11 +591,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '06:00',
-          showId: 'scoobyDoo'
+          cartoonId: 'scoobyDoo'
         },
         {
           startTime: '06:30',
-          showId: 'tomAndJerry'
+          cartoonId: 'tomAndJerry'
         }
       ]
     },
@@ -604,23 +604,23 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '07:00',
-          showId: 'mashaAndTheBear'
+          cartoonId: 'mashaAndTheBear'
         },
         {
           startTime: '07:05',
-          showId: 'theHapposFamily'
+          cartoonId: 'theHapposFamily'
         },
         {
           startTime: '07:10',
-          showId: 'oddbods'
+          cartoonId: 'oddbods'
         },
         {
           startTime: '07:20',
-          showId: 'bunnicula'
+          cartoonId: 'bunnicula'
         },
         {
           startTime: '07:30',
-          showId: 'thePowerpuffGirls'
+          cartoonId: 'thePowerpuffGirls'
         }
       ]
     },
@@ -629,11 +629,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '08:00',
-          showId: 'gumball'
+          cartoonId: 'gumball'
         },
         {
           startTime: '08:30',
-          showId: 'jorelsBrother'
+          cartoonId: 'jorelsBrother'
         }
       ]
     },
@@ -642,11 +642,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '09:00',
-          showId: 'weBareBears'
+          cartoonId: 'weBareBears'
         },
         {
           startTime: '09:30',
-          showId: 'clarence'
+          cartoonId: 'clarence'
         }
       ]
     },
@@ -655,11 +655,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '10:00',
-          showId: 'monica'
+          cartoonId: 'monica'
         },
         {
           startTime: '10:30',
-          showId: 'teenTitans'
+          cartoonId: 'teenTitans'
         }
       ]
     },
@@ -668,19 +668,19 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '11:00',
-          showId: 'jorelsBrother'
+          cartoonId: 'jorelsBrother'
         },
         {
           startTime: '11:15',
-          showId: 'picapauAmarelo'
+          cartoonId: 'picapauAmarelo'
         },
         {
           startTime: '11:30',
-          showId: 'gumball'
+          cartoonId: 'gumball'
         },
         {
           startTime: '11:45',
-          showId: 'gumball'
+          cartoonId: 'gumball'
         }
       ]
     },
@@ -689,11 +689,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '12:00',
-          showId: 'teenTitans'
+          cartoonId: 'teenTitans'
         },
         {
           startTime: '12:30',
-          showId: 'regularShow'
+          cartoonId: 'regularShow'
         }
       ]
     },
@@ -702,7 +702,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '13:30',
-          showId: 'weBareBears'
+          cartoonId: 'weBareBears'
         }
       ]
     },
@@ -711,15 +711,15 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '14:00',
-          showId: 'thePowerpuffGirls'
+          cartoonId: 'thePowerpuffGirls'
         },
         {
           startTime: '14:15',
-          showId: 'stevenUniverse'
+          cartoonId: 'stevenUniverse'
         },
         {
           startTime: '14:30',
-          showId: 'teenTitans'
+          cartoonId: 'teenTitans'
         }
       ]
     },
@@ -728,11 +728,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '15:00',
-          showId: 'dragonBallZ'
+          cartoonId: 'dragonBallZ'
         },
         {
           startTime: '15:30',
-          showId: 'dragonBall'
+          cartoonId: 'dragonBall'
         }
       ]
     },
@@ -741,11 +741,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '16:00',
-          showId: 'pokemon'
+          cartoonId: 'pokemon'
         },
         {
           startTime: '16:30',
-          showId: 'powerRangers'
+          cartoonId: 'powerRangers'
         }
       ]
     },
@@ -754,11 +754,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '17:00',
-          showId: 'thePowerpuffGirls'
+          cartoonId: 'thePowerpuffGirls'
         },
         {
           startTime: '17:30',
-          showId: 'clarence'
+          cartoonId: 'clarence'
         }
       ]
     },
@@ -767,15 +767,15 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '18:00',
-          showId: 'jorelsBrother'
+          cartoonId: 'jorelsBrother'
         },
         {
           startTime: '18:15',
-          showId: 'oswaldo'
+          cartoonId: 'oswaldo'
         },
         {
           startTime: '18:30',
-          showId: 'weBareBears'
+          cartoonId: 'weBareBears'
         }
       ]
     },
@@ -784,15 +784,15 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '19:00',
-          showId: 'regularShow'
+          cartoonId: 'regularShow'
         },
         {
           startTime: '19:15',
-          showId: 'teenTitans'
+          cartoonId: 'teenTitans'
         },
         {
           startTime: '19:30',
-          showId: 'regularShow'
+          cartoonId: 'regularShow'
         }
       ]
     },
@@ -801,15 +801,15 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '20:00',
-          showId: 'gumball'
+          cartoonId: 'gumball'
         },
         {
           startTime: '20:15',
-          showId: 'oswaldo'
+          cartoonId: 'oswaldo'
         },
         {
           startTime: '20:30',
-          showId: 'uncleGrandpa'
+          cartoonId: 'uncleGrandpa'
         }
       ]
     },
@@ -818,15 +818,15 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '21:00',
-          showId: 'jorelsBrother'
+          cartoonId: 'jorelsBrother'
         },
         {
           startTime: '21:15',
-          showId: 'adventureTime'
+          cartoonId: 'adventureTime'
         },
         {
           startTime: '21:45',
-          showId: 'gumball'
+          cartoonId: 'gumball'
         }
       ]
     },
@@ -835,7 +835,7 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '22:00',
-          showId: 'regularShow'
+          cartoonId: 'regularShow'
         }
       ]
     },
@@ -844,11 +844,11 @@ export const scheduleByDay = {
       details: [
         {
           startTime: '23:00',
-          showId: 'dragonBall'
+          cartoonId: 'dragonBall'
         },
         {
           startTime: '23:30',
-          showId: 'dragonBallZ'
+          cartoonId: 'dragonBallZ'
         }
       ]
     }

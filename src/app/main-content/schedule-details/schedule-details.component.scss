@@ -46,6 +46,10 @@
     background-color: rgba($color-white, 0.8);
   }
 
+  .container-start-time {
+    width: 10%;
+  }
+
   .start-time {
     bottom: 0;
     color: $color-gray-dark;
@@ -62,5 +66,18 @@
     -ms-transform: rotate(270deg);
     -o-transform: rotate(270deg);
     transform: rotate(270deg);
+  }
+
+  .thumbnail {
+    max-width: 30%;
+
+    img {
+      height: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .title {
+    max-width: 50%;
   }
 }

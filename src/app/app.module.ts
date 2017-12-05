@@ -14,7 +14,9 @@ import { AdsComponent } from './header/ads/ads.component';
 import { ScheduleService } from "./main-content/schedule/schedule.service";
 import { ScheduleDetailsComponent } from './main-content/schedule-details/schedule-details.component';
 import { DateService } from './main-content/date.service';
-import { CartoonDetailsModalComponent } from './main-content/cartoon-details-modal/cartoon-details-modal.component';
+import { CartoonDetailsModalComponent } from './main-content/cartoon-list/cartoon-details-modal/cartoon-details-modal.component';
+import { ScheduleDetailsModalComponent } from './main-content/schedule-details/schedule-details-modal/schedule-details-modal.component';
+import { CartoonListService } from './main-content/cartoon-list/cartoon-list.service';
 
 registerLocaleData(localePt);
 
@@ -30,6 +32,7 @@ registerLocaleData(localePt);
     AdsComponent,
     ScheduleDetailsComponent,
     CartoonDetailsModalComponent,
+    ScheduleDetailsModalComponent,
   ],
   imports: [
     BrowserModule
@@ -37,6 +40,7 @@ registerLocaleData(localePt);
   providers: [
     ScheduleService,
     DateService,
+    CartoonListService,
     { provide: LOCALE_ID, useValue: "pt-BR" },
   ],
   bootstrap: [AppComponent]

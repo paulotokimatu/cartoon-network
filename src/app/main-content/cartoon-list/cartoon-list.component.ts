@@ -1,6 +1,5 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { scheduleByCartoon } from '../../_data/schedule-by-cartoon';
-import { cartoonsFeatured } from '../../_data/cartoons-featured';
+import { CartoonListService } from './cartoon-list.service';
 
 @Component({
   selector: 'app-cartoon-list',
@@ -15,15 +14,14 @@ export class CartoonListComponent implements OnInit {
   selectedCartoon: any;
   showCartoonDetailsModal: boolean = false;
 
-  constructor() { }
+  constructor(private cartoonListService: CartoonListService) { }
 
   ngOnInit() {
-    this.featuredCartoons = cartoonsFeatured;
+    this.featuredCartoons = this.cartoonListService.getFeaturedCartoons();
   }
 
   onOpenCartoonDetailsModal(cartoon) {
-    console.log(cartoon)
-    this.selectedCartoon = cartoon;
+    this.selectedCartoon = this.cartoonListService.getOneCartoonSchedule(cartoon);
     this.showCartoonDetailsModal = true;
   }
 
