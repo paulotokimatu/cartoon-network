@@ -153,10 +153,10 @@ export const cartoonsDetails = {
     director: 'Jhon Iinfantino',
     casting: 'J.G. Quintel'
   },
-  regularShow: {
-    cartoonId: 'regularShow',
-    titlePt: 'Apenas Um Show',
-    titleEn: 'Regular Show',
+  campLazlo: {
+    cartoonId: 'campLazlo',
+    titlePt: 'O Acampamento de Lazlo',
+    titleEn: 'Camp Lazlo',
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
@@ -167,10 +167,10 @@ export const cartoonsDetails = {
     director: 'Jhon Iinfantino',
     casting: 'J.G. Quintel'
   },
-  regularShow: {
-    cartoonId: 'regularShow',
-    titlePt: 'Apenas Um Show',
-    titleEn: 'Regular Show',
+  dexter: {
+    cartoonId: 'dexter',
+    titlePt: 'O Laboratório de Dexter',
+    titleEn: "Dexter's Laboratory",
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
@@ -181,10 +181,10 @@ export const cartoonsDetails = {
     director: 'Jhon Iinfantino',
     casting: 'J.G. Quintel'
   },
-  regularShow: {
-    cartoonId: 'regularShow',
-    titlePt: 'Apenas Um Show',
-    titleEn: 'Regular Show',
+  mrBean: {
+    cartoonId: 'mrBean',
+    titlePt: 'Mr. Bean',
+    titleEn: 'Mr. Bean',
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
@@ -195,10 +195,10 @@ export const cartoonsDetails = {
     director: 'Jhon Iinfantino',
     casting: 'J.G. Quintel'
   },
-  regularShow: {
-    cartoonId: 'regularShow',
-    titlePt: 'Apenas Um Show',
-    titleEn: 'Regular Show',
+  pinkPanther: {
+    cartoonId: 'pinkPanther',
+    titlePt: 'A Turma da Pantera Cor de Rosa',
+    titleEn: 'Pink Panther & Pals',
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
@@ -209,10 +209,10 @@ export const cartoonsDetails = {
     director: 'Jhon Iinfantino',
     casting: 'J.G. Quintel'
   },
-  regularShow: {
-    cartoonId: 'regularShow',
-    titlePt: 'Apenas Um Show',
-    titleEn: 'Regular Show',
+  clarence: {
+    cartoonId: 'clarence',
+    titlePt: 'Clarêncio, o Otimista',
+    titleEn: 'Clarence',
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
@@ -223,10 +223,10 @@ export const cartoonsDetails = {
     director: 'Jhon Iinfantino',
     casting: 'J.G. Quintel'
   },
-  regularShow: {
-    cartoonId: 'regularShow',
-    titlePt: 'Apenas Um Show',
-    titleEn: 'Regular Show',
+  monica: {
+    cartoonId: 'monica',
+    titlePt: 'Turma da Mônica',
+    titleEn: 'Monica and Friends',
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
@@ -237,10 +237,10 @@ export const cartoonsDetails = {
     director: 'Jhon Iinfantino',
     casting: 'J.G. Quintel'
   },
-  regularShow: {
-    cartoonId: 'regularShow',
-    titlePt: 'Apenas Um Show',
-    titleEn: 'Regular Show',
+  lego: {
+    cartoonId: 'lego',
+    titlePt: 'Lego: Nexo Knights',
+    titleEn: 'Lego: Nexo Knights',
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
@@ -251,10 +251,10 @@ export const cartoonsDetails = {
     director: 'Jhon Iinfantino',
     casting: 'J.G. Quintel'
   },
-  regularShow: {
-    cartoonId: 'regularShow',
-    titlePt: 'Apenas Um Show',
-    titleEn: 'Regular Show',
+  teenTitans: {
+    cartoonId: 'teenTitans',
+    titlePt: 'Os Jovens Titãs em Ação',
+    titleEn: 'Teen Titans Go!',
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
@@ -265,10 +265,10 @@ export const cartoonsDetails = {
     director: 'Jhon Iinfantino',
     casting: 'J.G. Quintel'
   },
-  regularShow: {
-    cartoonId: 'regularShow',
-    titlePt: 'Apenas Um Show',
-    titleEn: 'Regular Show',
+  ben10: {
+    cartoonId: 'ben10',
+    titlePt: 'Ben 10',
+    titleEn: 'Ben 10',
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
@@ -279,10 +279,10 @@ export const cartoonsDetails = {
     director: 'Jhon Iinfantino',
     casting: 'J.G. Quintel'
   },
-  regularShow: {
-    cartoonId: 'regularShow',
-    titlePt: 'Apenas Um Show',
-    titleEn: 'Regular Show',
+  picapauAmarelo: {
+    cartoonId: 'picapauAmarelo',
+    titlePt: 'Sitio do Picapau Amarelo',
+    titleEn: 'Sitio do Picapau Amarelo',
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
@@ -293,10 +293,10 @@ export const cartoonsDetails = {
     director: 'Jhon Iinfantino',
     casting: 'J.G. Quintel'
   },
-  regularShow: {
-    cartoonId: 'regularShow',
-    titlePt: 'Apenas Um Show',
-    titleEn: 'Regular Show',
+  trunkTrain: {
+    cartoonId: 'trunkTrain',
+    titlePt: 'Tromba Trem',
+    titleEn: 'Trunk Train',
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
@@ -307,10 +307,10 @@ export const cartoonsDetails = {
     director: 'Jhon Iinfantino',
     casting: 'J.G. Quintel'
   },
-  regularShow: {
-    cartoonId: 'regularShow',
-    titlePt: 'Apenas Um Show',
-    titleEn: 'Regular Show',
+  surfsUp: {
+    cartoonId: 'surfsUp',
+    titlePt: 'Tá Dando Onda',
+    titleEn: "Surf's Up",
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
@@ -321,10 +321,10 @@ export const cartoonsDetails = {
     director: 'Jhon Iinfantino',
     casting: 'J.G. Quintel'
   },
-  regularShow: {
-    cartoonId: 'regularShow',
-    titlePt: 'Apenas Um Show',
-    titleEn: 'Regular Show',
+  weBareBears: {
+    cartoonId: 'weBareBears',
+    titlePt: 'Ursos Sem Curso',
+    titleEn: 'We Bare Bears',
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
@@ -335,10 +335,10 @@ export const cartoonsDetails = {
     director: 'Jhon Iinfantino',
     casting: 'J.G. Quintel'
   },
-  regularShow: {
-    cartoonId: 'regularShow',
-    titlePt: 'Apenas Um Show',
-    titleEn: 'Regular Show',
+  magisWords: {
+    cartoonId: 'magisWords',
+    titlePt: 'Poderosas Magiespadas',
+    titleEn: 'Mighty Magiswords',
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
@@ -349,10 +349,10 @@ export const cartoonsDetails = {
     director: 'Jhon Iinfantino',
     casting: 'J.G. Quintel'
   },
-  regularShow: {
-    cartoonId: 'regularShow',
-    titlePt: 'Apenas Um Show',
-    titleEn: 'Regular Show',
+  transformers: {
+    cartoonId: 'transformers',
+    titlePt: 'Transformers Robots in Disguise',
+    titleEn: 'Transformers Robots in Disguise',
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
@@ -363,10 +363,10 @@ export const cartoonsDetails = {
     director: 'Jhon Iinfantino',
     casting: 'J.G. Quintel'
   },
-  regularShow: {
-    cartoonId: 'regularShow',
-    titlePt: 'Apenas Um Show',
-    titleEn: 'Regular Show',
+  powerRangers: {
+    cartoonId: 'powerRangers',
+    titlePt: 'Power Rangers Ninja Steel',
+    titleEn: 'Power Rangers Ninja Steel',
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
@@ -377,10 +377,10 @@ export const cartoonsDetails = {
     director: 'Jhon Iinfantino',
     casting: 'J.G. Quintel'
   },
-  regularShow: {
-    cartoonId: 'regularShow',
-    titlePt: 'Apenas Um Show',
-    titleEn: 'Regular Show',
+  uncleGrandpa: {
+    cartoonId: 'uncleGrandpa',
+    titlePt: 'Titio Avô',
+    titleEn: 'Uncle Grandpa',
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
@@ -391,10 +391,10 @@ export const cartoonsDetails = {
     director: 'Jhon Iinfantino',
     casting: 'J.G. Quintel'
   },
-  regularShow: {
-    cartoonId: 'regularShow',
-    titlePt: 'Apenas Um Show',
-    titleEn: 'Regular Show',
+  billyAndMandy: {
+    cartoonId: 'billyAndMandy',
+    titlePt: 'As Terríveis Aventuras de Billy e Mandy',
+    titleEn: 'The Grim Adventures of Billy & Mandy',
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
@@ -405,10 +405,10 @@ export const cartoonsDetails = {
     director: 'Jhon Iinfantino',
     casting: 'J.G. Quintel'
   },
-  regularShow: {
-    cartoonId: 'regularShow',
-    titlePt: 'Apenas Um Show',
-    titleEn: 'Regular Show',
+  weasel: {
+    cartoonId: 'weasel',
+    titlePt: 'Eu sou o máximo',
+    titleEn: 'I am Weasel',
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
@@ -419,4 +419,172 @@ export const cartoonsDetails = {
     director: 'Jhon Iinfantino',
     casting: 'J.G. Quintel'
   },
+  scoobyDooAndVampire: {
+    cartoonId: 'scoobyDooAndVampire',
+    titlePt: 'Scooby-Doo e a Lenda do Vampiro',
+    titleEn: 'Scooby-Doo and the Legend of the Vampire',
+    duration: 30,
+    year: 2015,
+    origin: 'Estados Unidos',
+    contentClassification: '04',
+    indicativeClassification: 10,
+    synopsis: 'O programa tem como protagonistas dois zeladores de um parque: um gaio-azul de mais de 1,80 m de altura chamado Mordecai, e um guaxinim chamado Rigby. Mordecai e Rigby são melhores amigos que passam seus dias tentando se divertir, de todas as maneiras possíveis',
+    genre: 'Animação, Comédia',
+    director: 'Jhon Iinfantino',
+    casting: 'J.G. Quintel'
+  },
+  bunnicula: {
+    cartoonId: 'bunnicula',
+    titlePt: 'Bunnicula, o Vampiro Coelho',
+    titleEn: 'Bunnicula',
+    duration: 30,
+    year: 2015,
+    origin: 'Estados Unidos',
+    contentClassification: '04',
+    indicativeClassification: 10,
+    synopsis: 'O programa tem como protagonistas dois zeladores de um parque: um gaio-azul de mais de 1,80 m de altura chamado Mordecai, e um guaxinim chamado Rigby. Mordecai e Rigby são melhores amigos que passam seus dias tentando se divertir, de todas as maneiras possíveis',
+    genre: 'Animação, Comédia',
+    director: 'Jhon Iinfantino',
+    casting: 'J.G. Quintel'
+  },
+  barbie: {
+    cartoonId: 'barbie',
+    titlePt: 'Barbie',
+    titleEn: 'Barbie',
+    duration: 30,
+    year: 2015,
+    origin: 'Estados Unidos',
+    contentClassification: '04',
+    indicativeClassification: 10,
+    synopsis: 'O programa tem como protagonistas dois zeladores de um parque: um gaio-azul de mais de 1,80 m de altura chamado Mordecai, e um guaxinim chamado Rigby. Mordecai e Rigby são melhores amigos que passam seus dias tentando se divertir, de todas as maneiras possíveis',
+    genre: 'Animação, Comédia',
+    director: 'Jhon Iinfantino',
+    casting: 'J.G. Quintel'
+  },
+  monsterHigh: {
+    cartoonId: 'monsterHigh',
+    titlePt: 'Monster High',
+    titleEn: 'Monster High',
+    duration: 30,
+    year: 2015,
+    origin: 'Estados Unidos',
+    contentClassification: '04',
+    indicativeClassification: 10,
+    synopsis: 'O programa tem como protagonistas dois zeladores de um parque: um gaio-azul de mais de 1,80 m de altura chamado Mordecai, e um guaxinim chamado Rigby. Mordecai e Rigby são melhores amigos que passam seus dias tentando se divertir, de todas as maneiras possíveis',
+    genre: 'Animação, Comédia',
+    director: 'Jhon Iinfantino',
+    casting: 'J.G. Quintel'
+  },
+  drSeuss: {
+    cartoonId: 'drSeuss',
+    titlePt: 'Dr. Seuss',
+    titleEn: 'Dr. Seuss',
+    duration: 30,
+    year: 2015,
+    origin: 'Estados Unidos',
+    contentClassification: '04',
+    indicativeClassification: 10,
+    synopsis: 'O programa tem como protagonistas dois zeladores de um parque: um gaio-azul de mais de 1,80 m de altura chamado Mordecai, e um guaxinim chamado Rigby. Mordecai e Rigby são melhores amigos que passam seus dias tentando se divertir, de todas as maneiras possíveis',
+    genre: 'Animação, Comédia',
+    director: 'Jhon Iinfantino',
+    casting: 'J.G. Quintel'
+  },
+  barbieVideoGame: {
+    cartoonId: 'barbieVideoGame',
+    titlePt: 'Barbie em um Mundo de Video Game',
+    titleEn: 'Barbie Video Game Hero',
+    duration: 30,
+    year: 2015,
+    origin: 'Estados Unidos',
+    contentClassification: '04',
+    indicativeClassification: 10,
+    synopsis: 'O programa tem como protagonistas dois zeladores de um parque: um gaio-azul de mais de 1,80 m de altura chamado Mordecai, e um guaxinim chamado Rigby. Mordecai e Rigby são melhores amigos que passam seus dias tentando se divertir, de todas as maneiras possíveis',
+    genre: 'Animação, Comédia',
+    director: 'Jhon Iinfantino',
+    casting: 'J.G. Quintel'
+  },
+  dragonBallZ: {
+    cartoonId: 'dragonBallZ',
+    titlePt: 'Dragon Ball Z',
+    titleEn: 'Dragon Ball Z',
+    duration: 30,
+    year: 2015,
+    origin: 'Estados Unidos',
+    contentClassification: '04',
+    indicativeClassification: 10,
+    synopsis: 'O programa tem como protagonistas dois zeladores de um parque: um gaio-azul de mais de 1,80 m de altura chamado Mordecai, e um guaxinim chamado Rigby. Mordecai e Rigby são melhores amigos que passam seus dias tentando se divertir, de todas as maneiras possíveis',
+    genre: 'Animação, Comédia',
+    director: 'Jhon Iinfantino',
+    casting: 'J.G. Quintel'
+  },
+  mashaAndTheBear: {
+    cartoonId: 'mashaAndTheBear',
+    titlePt: 'Masha e o Urso',
+    titleEn: 'Masha and the Bear',
+    duration: 30,
+    year: 2015,
+    origin: 'Estados Unidos',
+    contentClassification: '04',
+    indicativeClassification: 10,
+    synopsis: 'O programa tem como protagonistas dois zeladores de um parque: um gaio-azul de mais de 1,80 m de altura chamado Mordecai, e um guaxinim chamado Rigby. Mordecai e Rigby são melhores amigos que passam seus dias tentando se divertir, de todas as maneiras possíveis',
+    genre: 'Animação, Comédia',
+    director: 'Jhon Iinfantino',
+    casting: 'J.G. Quintel'
+  },
+  theHapposFamily: {
+    cartoonId: 'theHapposFamily',
+    titlePt: 'The Happos Family',
+    titleEn: 'The Happos Family',
+    duration: 30,
+    year: 2015,
+    origin: 'Estados Unidos',
+    contentClassification: '04',
+    indicativeClassification: 10,
+    synopsis: 'O programa tem como protagonistas dois zeladores de um parque: um gaio-azul de mais de 1,80 m de altura chamado Mordecai, e um guaxinim chamado Rigby. Mordecai e Rigby são melhores amigos que passam seus dias tentando se divertir, de todas as maneiras possíveis',
+    genre: 'Animação, Comédia',
+    director: 'Jhon Iinfantino',
+    casting: 'J.G. Quintel'
+  },
+  oddbods: {
+    cartoonId: 'oddbods',
+    titlePt: 'Oddbods',
+    titleEn: 'Oddbods',
+    duration: 30,
+    year: 2015,
+    origin: 'Estados Unidos',
+    contentClassification: '04',
+    indicativeClassification: 10,
+    synopsis: 'O programa tem como protagonistas dois zeladores de um parque: um gaio-azul de mais de 1,80 m de altura chamado Mordecai, e um guaxinim chamado Rigby. Mordecai e Rigby são melhores amigos que passam seus dias tentando se divertir, de todas as maneiras possíveis',
+    genre: 'Animação, Comédia',
+    director: 'Jhon Iinfantino',
+    casting: 'J.G. Quintel'
+  },
+  pokemon: {
+    cartoonId: 'pokemon',
+    titlePt: 'Pokemon',
+    titleEn: 'Pokemon',
+    duration: 30,
+    year: 2015,
+    origin: 'Estados Unidos',
+    contentClassification: '04',
+    indicativeClassification: 10,
+    synopsis: 'O programa tem como protagonistas dois zeladores de um parque: um gaio-azul de mais de 1,80 m de altura chamado Mordecai, e um guaxinim chamado Rigby. Mordecai e Rigby são melhores amigos que passam seus dias tentando se divertir, de todas as maneiras possíveis',
+    genre: 'Animação, Comédia',
+    director: 'Jhon Iinfantino',
+    casting: 'J.G. Quintel'
+  },
+  oswaldo: {
+    cartoonId: 'oswaldo',
+    titlePt: 'Oswaldo',
+    titleEn: 'Oswaldo',
+    duration: 30,
+    year: 2015,
+    origin: 'Estados Unidos',
+    contentClassification: '04',
+    indicativeClassification: 10,
+    synopsis: 'O programa tem como protagonistas dois zeladores de um parque: um gaio-azul de mais de 1,80 m de altura chamado Mordecai, e um guaxinim chamado Rigby. Mordecai e Rigby são melhores amigos que passam seus dias tentando se divertir, de todas as maneiras possíveis',
+    genre: 'Animação, Comédia',
+    director: 'Jhon Iinfantino',
+    casting: 'J.G. Quintel'
+  }
 };

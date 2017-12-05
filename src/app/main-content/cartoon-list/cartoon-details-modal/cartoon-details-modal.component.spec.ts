@@ -1,21 +1,22 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CartoonDetailsComponent } from './cartoon-details-modal.component';
+import { CartoonDetailsModalComponent } from './cartoon-details-modal.component';
 
-describe('CartoonDetailsComponent', () => {
-  let component: CartoonDetailsComponent;
-  let fixture: ComponentFixture<CartoonDetailsComponent>;
+describe('CartoonDetailsModalComponent', () => {
+  let component: CartoonDetailsModalComponent;
+  let fixture: ComponentFixture<CartoonDetailsModalComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CartoonDetailsComponent ]
+      declarations: [ CartoonDetailsModalComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CartoonDetailsComponent);
+    fixture = TestBed.createComponent(CartoonDetailsModalComponent);
     component = fixture.componentInstance;
+    component.selectedCartoon = {};
     fixture.detectChanges();
   });
 

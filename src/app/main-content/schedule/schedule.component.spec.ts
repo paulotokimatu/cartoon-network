@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ScheduleComponent } from './schedule.component';
+import { ScheduleService } from './schedule.service';
+import { DateService } from '../date.service';
 
 describe('ScheduleComponent', () => {
   let component: ScheduleComponent;
@@ -8,7 +10,8 @@ describe('ScheduleComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ScheduleComponent ]
+      declarations: [ ScheduleComponent ],
+      providers: [ DateService, ScheduleService ]
     })
     .compileComponents();
   }));

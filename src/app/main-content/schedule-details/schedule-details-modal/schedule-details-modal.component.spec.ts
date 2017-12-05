@@ -16,6 +16,7 @@ describe('ScheduleDetailsModalComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(ScheduleDetailsModalComponent);
     component = fixture.componentInstance;
+    component.selectedCartoon = {};
     fixture.detectChanges();
   });
 
