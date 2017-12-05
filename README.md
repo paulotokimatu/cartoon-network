@@ -1,27 +1,36 @@
-# CartoonNetwork
+# Cartoon Network Redesign
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.3.
+## Introdução
+Baseado em Mockup fornecido, o projeto propõe uma nova página de programação para o site da Cartoon Network.
 
-## Development server
+Considerando que no dia-a-dia a empresa avaliadora utiliza SASS e Angular2+, decidi utilizar tais tecnologia para resolver o exercício. Como benefícios, poderia utilizar o Angular-Cli para criação simples e rápida de um projeto e gerenciar facilmente os eventos dinâmicos propostos no exercício.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Tomei a liberdade de alterar alguns detalhes do mockup, seja por preferências pessoais ou não-disponibilidade de recursos (como a fonte suporte, por exemplo).
 
-## Code scaffolding
+Testado em Mozilla Firefox 57, Microsoft Edge 40, Opera 49 e Google Chrome 62 em Windows 10 e Mozilla Firefox e Google Chrome em Fedora.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Execução
 
-## Build
+```
+git clone <repo>
+cd cartoon-network
+npm install
+ng serve
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Por último acesse http://localhost:4200 para iniciar a aplicação.
 
-## Running unit tests
+Verifique o linting com `ng lint` e rode os testes unitários com `ng test`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Possíveis melhorias
 
-## Running end-to-end tests
+Evidentemente não é um produto 100% finalizado. Como melhorias, eu poderia:
+- Botão para retornar um dia;
+- Separar o projeto em módulos;
+- Melhorar testes unitários;
+- Criar versão para dispositivos de tela pequena (atualmente o projeto funciona relativamente bem à variações pequenas de tamanho de tela);
+- Alterar serviços para que utilizem endpoints de um backend para retornar dados;
+- Criar rotas (embora talvez não seja tão pertinente no contexto atual desse projeto);
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Screenshots
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
