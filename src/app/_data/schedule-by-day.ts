@@ -53,7 +53,7 @@ export const scheduleByDay = {
       hour: '05',
       details: [
         {
-          startTime: '00:00',
+          startTime: '05:00',
           cartoonId: 'campLazlo'
         },
         {

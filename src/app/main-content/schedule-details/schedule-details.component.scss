@@ -46,6 +46,10 @@
     background-color: rgba($color-white, 0.8);
   }
 
+  .container-start-time {
+    width: 10%;
+  }
+
   .start-time {
     bottom: 0;
     color: $color-gray-dark;
@@ -74,6 +78,6 @@
   }
 
   .title {
-    max-width: 35%;
+    max-width: 50%;
   }
 }

@@ -2,16 +2,18 @@
   <div class="title-hour">{{selectedHour?.hour}}h</div>
   
   <div *ngFor="let cartoon of selectedHour?.details" (click)="onOpenScheduleDetailsModal(cartoon.cartoonId)" class="card-cartoon">
-    <div>
+    <div class="container-start-time">
       <div class="start-time">{{cartoon.startTime}}</div>
     </div>
+    
     <div class="thumbnail">
       <img src="assets/imgs/thumbnails/template.png" alt="{{allCartoonsSchedule[cartoon.cartoonId].titlePt}}">
       {{cartoon.cartoonId}}
     </div>
     <div class="title">
-      {{allCartoonsSchedule[cartoon.cartoonId].titlePt}}
-    </div>
+        {{allCartoonsSchedule[cartoon.cartoonId].titlePt}}
+      </div>
+    
   </div>
 </div>
 
