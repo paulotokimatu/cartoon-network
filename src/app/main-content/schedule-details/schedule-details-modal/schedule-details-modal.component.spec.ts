@@ -23,4 +23,12 @@ describe('ScheduleDetailsModalComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should emit signal to close', () => {
+    component.changeScheduleDetailsModal.subscribe(response => {
+       expect(response).toEqual(false);
+    });
+
+    component.onClose();
+  });
 });
