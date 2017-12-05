@@ -4,7 +4,6 @@ import { ScheduleHourDetails } from '../../_models/schedule-hour-details.model';
 import { cartoonsDetails } from '../../_data/cartoons-details';
 
 export class ScheduleService {
-  //TODO create model for details
   selectedHourChanged = new Subject<ScheduleHourDetails>();
 
   constructor() {
