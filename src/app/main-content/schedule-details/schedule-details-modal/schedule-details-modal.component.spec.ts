@@ -16,10 +16,19 @@ describe('ScheduleDetailsModalComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(ScheduleDetailsModalComponent);
     component = fixture.componentInstance;
+    component.selectedCartoon = {};
     fixture.detectChanges();
   });
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('should emit signal to close', () => {
+    component.changeScheduleDetailsModal.subscribe(response => {
+       expect(response).toEqual(false);
+    });
+
+    component.onClose();
   });
 });

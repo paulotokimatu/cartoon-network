@@ -1,13 +1,15 @@
-<div
-  *ngFor="let hourData of schedule; let i = index"
-  (click)="onSetScheduleDetails(hourData, i)"
-  [ngClass]="{
-    'hour-square--today': isCurrentHour(hourData.hour),
-    'hour-square--active': i === selectedSquare
-  }"
-  class="hour-square {{squareColor(hourData.hour)}}">
-  <div class="hour-square-wrapper">{{hourData.hour}}h</div>
-</div>
-<div class="next-square">
-  <img (click)="onGetNextDay()" class="arrow-next" src="assets/icons/arrow_next_black.svg" alt="">    
+<div [ngClass]="{ 'loading': loading }">
+  <div
+    *ngFor="let hourData of schedule; let i = index"
+    (click)="onSetScheduleDetails(hourData, i)"
+    [ngClass]="{
+      'hour-square--today': isCurrentHour(hourData.hour),
+      'hour-square--active': i === selectedSquare
+    }"
+    class="hour-square {{squareColor(hourData.hour)}}">
+    <div class="hour-square-wrapper">{{hourData.hour}}h</div>
+  </div>
+  <div class="next-square">
+    <img (click)="onGetNextDay()" class="arrow-next" src="assets/icons/arrow_next_black.svg" alt="">    
+  </div>
 </div>

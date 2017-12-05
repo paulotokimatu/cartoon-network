@@ -32,8 +32,8 @@ export class CartoonListComponent implements OnInit {
   onChangeVisibleCartoons(change) {
     let newIndex = this.startIndex + change;
     if (newIndex >= 0 && newIndex + this.maxVisibleFeaturedCartoons <= this.featuredCartoons.length)
-    { 
-      this.startIndex = newIndex;      
+    {
+      this.startIndex = newIndex;
     }
   }
 }
