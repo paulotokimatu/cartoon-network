@@ -16,13 +16,16 @@ export class ScheduleComponent implements OnInit {
   date: any;
   dateSub: Subscription;
   selectedSquare: number;
+  loading: boolean = false;
   private squareClasses: string[] = ['hour-square--a', 'hour-square--b', 'hour-square--c'];
 
   constructor(private scheduleService: ScheduleService, private dateService: DateService) { }
 
   ngOnInit() {
+    this.loading = true;
     this.date = this.dateService.getDate();
     this.dateSub = this.dateService.currentDateChanged.subscribe(newDate => {
+      this.loading = true;
       this.date = newDate;
       this.updateSchedule();
     })
@@ -32,6 +35,7 @@ export class ScheduleComponent implements OnInit {
   updateSchedule() {
     this.schedule = this.scheduleService.getSchedule(this.date.formattedDate);
     this.onSetScheduleDetails(this.schedule[this.currentHour], this.currentHour);
+    this.loading = false;
   }
 
   onSetScheduleDetails(selectedHour, i) {
