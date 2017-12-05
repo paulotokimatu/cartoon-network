@@ -27,14 +27,11 @@ export class ScheduleComponent implements OnInit {
       this.updateSchedule();
     })
     this.updateSchedule();
-
-    //TODO: schedule-details doesn't receive this update
-    //console.log(this.currentHour);
-    //this.onSetScheduleDetails(this.schedule[this.currentHour], 0);
   }
 
   updateSchedule() {
     this.schedule = this.scheduleService.getSchedule(this.date.formattedDate);
+    this.onSetScheduleDetails(this.schedule[this.currentHour], this.currentHour);
   }
 
   onSetScheduleDetails(selectedHour, i) {
