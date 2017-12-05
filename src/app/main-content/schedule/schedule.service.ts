@@ -1,10 +1,10 @@
 import { Subject } from 'rxjs/Subject';
 import { scheduleByDay } from '../../_data/schedule-by-day';
-import { ScheduleHourDetails } from '../../_models/schedule-hour-details.model';
 import { cartoonsDetails } from '../../_data/cartoons-details';
+import { Schedule } from '../../_models/schedule.model';
 
 export class ScheduleService {
-  selectedHourChanged = new Subject<ScheduleHourDetails>();
+  selectedHourChanged = new Subject<Schedule>();
 
   constructor() {
   }

@@ -1,5 +1,6 @@
 import { ScheduleService } from './schedule.service';
 import { Subscription } from 'rxjs/Subscription';
+import { Schedule } from '../../_models/schedule.model';
 
 const mockScheduleByDay = {
   '2017/12/2': [
@@ -573,10 +574,20 @@ describe('ScheduleService', () => {
   });
 
   it('emit data for a specific hour', () => {
-    // Invalid. Difficult to test because there is no api call, I am just importing raw data.
     let service = new ScheduleService();
-    
-    expect(service).toBeTruthy();
+    let selectedHourSub: Subscription;
+
+    selectedHourSub = service.selectedHourChanged.subscribe((selectedHour: Schedule) => {
+      expect(selectedHour.hour).toBe('12');
+    })
+
+    service.setScheduleDetails({
+      hour: '12',
+      details: {
+        startTime: '12:00',
+        cartoonId: 'regularShow'
+      }
+    });
   });
 
   it('return data for a specific cartoon by its cartoonId', () => {
