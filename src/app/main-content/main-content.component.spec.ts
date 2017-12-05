@@ -38,4 +38,25 @@ describe('MainContentComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should get date from DateService', () => {
+    const mockDate = {formattedDate: '2017/12/1'};
+    let dateService = fixture.debugElement.injector.get(DateService);
+    spyOn(dateService, 'getDate').and.returnValue(mockDate);
+
+    component.ngOnInit();
+
+    expect(dateService.getDate).toHaveBeenCalled();
+    expect(component.date.formattedDate).toBe('2017/12/1');
+  });
+
+  it('should return current hour', () => {
+    const mockDate = {hour: 12};
+    let dateService = fixture.debugElement.injector.get(DateService);
+    spyOn(dateService, 'getDate').and.returnValue(mockDate);
+
+    component.ngOnInit();
+
+    expect(component.getCurrentHour()).toBe(12);
+  });
 });
