@@ -6,7 +6,7 @@
     'hour-square--active': i === selectedSquare
   }"
   class="hour-square {{squareColor(hourData.hour)}}">
-  {{hourData.hour}}h
+  <div class="hour-square-wrapper">{{hourData.hour}}h</div>
 </div>
 <div class="next-square">
   <img (click)="onGetNextDay()" class="arrow-next" src="assets/icons/arrow_next_black.svg" alt="">    

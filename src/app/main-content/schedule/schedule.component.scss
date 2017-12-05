@@ -9,11 +9,12 @@
   color: $color-white;
   cursor: pointer;
   float: left;
-  font-size: $font-size-lg;
+  font-size: $font-size-xl;
   height: 0;
   margin: $space-xs;
   opacity: 0.75;
   padding-bottom: 18%;
+  position: relative;
   transition: opacity 0.3s;
   width: 18%;
 }
@@ -48,6 +49,15 @@
 
 .hour-square--today.hour-square--c {
   color: $color-primary-c;
+}
+
+.hour-square-wrapper {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
+  width: 100%
 }
 
 .next-square {
