@@ -1,4 +1,5 @@
 import { Subject } from "rxjs/Subject";
+import { ParsedDate } from "../_models/parsed-date.model";
 
 export class DateService {
   currentDate: Date = new Date();
@@ -9,8 +10,8 @@ export class DateService {
   constructor() {
   }
 
-  getDate() {
-    let date = {
+  getDate(): ParsedDate {
+    let date: ParsedDate = {
       year: this.currentDate.getFullYear(),
       month: this.currentDate.getMonth() + 1,
       day: this.currentDate.getDate(),
