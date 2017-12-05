@@ -30,7 +30,6 @@ export class ScheduleDetailsComponent implements OnInit {
 
   onOpenScheduleDetailsModal(cartoonId) {
     this.selectedCartoon = this.scheduleService.getCartoonDetails(cartoonId);
-    console.log(this.selectedCartoon);
     this.showScheduleDetailsModal = true;
   }
 
