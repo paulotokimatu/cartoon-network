@@ -8,6 +8,7 @@ import { Subscription } from 'rxjs/Subscription';
   styleUrls: ['./schedule-details.component.scss']
 })
 export class ScheduleDetailsComponent implements OnInit {
+  allCartoonsSchedule: any;
   selectedCartoon: any;
   showScheduleDetailsModal: boolean = false;
   selectedHour: any;
@@ -21,6 +22,7 @@ export class ScheduleDetailsComponent implements OnInit {
   constructor(private scheduleService: ScheduleService) { }
 
   ngOnInit() {
+    this.allCartoonsSchedule = this.scheduleService.getAllCartoonsDetails();
     this.selectedHourSub = this.scheduleService.selectedHourChanged.subscribe(selectedHour => {
       this.selectedHour = selectedHour;
     })
@@ -28,6 +30,7 @@ export class ScheduleDetailsComponent implements OnInit {
 
   onOpenScheduleDetailsModal(cartoonId) {
     this.selectedCartoon = this.scheduleService.getCartoonDetails(cartoonId);
+    console.log(this.selectedCartoon);
     this.showScheduleDetailsModal = true;
   }
 

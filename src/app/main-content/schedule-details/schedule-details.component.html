@@ -3,13 +3,14 @@
   
   <div *ngFor="let cartoon of selectedHour?.details" (click)="onOpenScheduleDetailsModal(cartoon.cartoonId)" class="card-cartoon">
     <div>
-      <div class="start-time">{{cartoon.startTime}}</div>      
+      <div class="start-time">{{cartoon.startTime}}</div>
     </div>
-    <div>
+    <div class="thumbnail">
+      <img src="assets/imgs/thumbnails/template.png" alt="{{allCartoonsSchedule[cartoon.cartoonId].titlePt}}">
       {{cartoon.cartoonId}}
     </div>
-    <div>
-      {{cartoon.cartoonId}}
+    <div class="title">
+      {{allCartoonsSchedule[cartoon.cartoonId].titlePt}}
     </div>
   </div>
 </div>

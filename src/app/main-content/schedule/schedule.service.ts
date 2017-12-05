@@ -19,7 +19,10 @@ export class ScheduleService {
   }
 
   getCartoonDetails(cartoonId) {
-    console.log(cartoonId);
     return cartoonsDetails[cartoonId];
+  }
+
+  getAllCartoonsDetails() {
+    return cartoonsDetails;
   }
 }
