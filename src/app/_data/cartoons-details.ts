@@ -84,7 +84,7 @@ export const cartoonsDetails = {
     casting: ''
   },
   stevenUniverse: {
-    cartoonId: 'regularShow',
+    cartoonId: 'stevenUniverse',
     titlePt: 'Steven Universe',
     titleEn: 'Steven Universe',
     duration: 30,
@@ -126,7 +126,7 @@ export const cartoonsDetails = {
     casting: 'J.G. Quintel'
   },
   johnnyBravo: {
-    cartoonId: 'regularShow',
+    cartoonId: 'johnnyBravo',
     titlePt: 'Johnny Bravo',
     titleEn: 'Johnny Bravo',
     duration: 30,
@@ -140,7 +140,7 @@ export const cartoonsDetails = {
     casting: 'J.G. Quintel'
   },
   courage: {
-    cartoonId: 'regularShow',
+    cartoonId: 'courage',
     titlePt: 'Coragem, o Cão Covarde',
     titleEn: 'Courage, the Coward Dog',
     duration: 30,
