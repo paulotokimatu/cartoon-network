@@ -31,6 +31,7 @@
 }
 
 .card-cartoon {
+  align-items:  center;
   background-color: $color-white;
   cursor: pointer;
   display: flex;
@@ -69,6 +70,7 @@
   }
 
   .thumbnail {
+    align-self: normal;
     max-width: 30%;
 
     img {
