@@ -7,7 +7,7 @@ Considerando que no dia-a-dia a empresa avaliadora utiliza SASS e Angular2+, dec
 
 Tomei a liberdade de alterar alguns detalhes do mockup, seja por preferências pessoais ou não-disponibilidade de recursos (como a fonte suporte, por exemplo).
 
-Testado em Mozilla Firefox 57, Microsoft Edge 40, Opera 49 e Google Chrome 62 em Windows 10 e Mozilla Firefox e Google Chrome em Fedora.
+Testado em Mozilla Firefox 57, Microsoft Edge 40, Opera 49 e Google Chrome 62 em Windows 10 e Opera 46 em Fedora 19. Tive problemas em Firefox 34 em Fedora 19, mas não tive tempo de entender.
 
 ## Execução
 
@@ -20,12 +20,12 @@ ng serve
 
 Por último acesse http://localhost:4200 para iniciar a aplicação.
 
-Verifique o linting com `ng lint` e rode os testes unitários com `ng test`.
+Você pode verificar o linting com `ng lint` e rodar os testes unitários com `ng test`.
 
 ## Possíveis melhorias
 
 Evidentemente não é um produto 100% finalizado. Como melhorias, eu poderia:
-- Botão para retornar um dia;
+- Adicionar botão para retornar um dia;
 - Separar o projeto em módulos;
 - Melhorar testes unitários;
 - Criar versão para dispositivos de tela pequena (atualmente o projeto funciona relativamente bem à variações pequenas de tamanho de tela);
@@ -34,3 +34,8 @@ Evidentemente não é um produto 100% finalizado. Como melhorias, eu poderia:
 
 ## Screenshots
 
+![Cartoon Network - screenshot](./screenshots/main.png?raw=true)
+
+![Cartoon Network - screenshot](./screenshots/schedule-by-cartoon.png?raw=true)
+
+![Cartoon Network - screenshot](./screenshots/cartoon-details.png?raw=true)
