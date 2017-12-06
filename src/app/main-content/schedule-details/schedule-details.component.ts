@@ -1,6 +1,6 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { ScheduleService } from '../schedule/schedule.service';
+import { Component, Input, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs/Subscription';
+import { ScheduleService } from '../schedule/schedule.service';
 
 @Component({
   selector: 'app-schedule-details',
@@ -38,7 +38,8 @@ export class ScheduleDetailsComponent implements OnInit {
   }
 
   containerColor(hour) {
-    let intHour = parseInt(hour);
+    const intHour = parseInt(hour, 10);
+
     return this.containerClasses[intHour % 3];
   }
 }

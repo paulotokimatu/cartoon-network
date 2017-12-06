@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ScheduleService } from './schedule/schedule.service';
-import { DateService } from './date.service';
 import { Subscription } from 'rxjs/Subscription';
+import { DateService } from './date.service';
+import { ScheduleService } from './schedule/schedule.service';
 
 @Component({
   selector: 'app-main-content',
@@ -11,7 +11,7 @@ import { Subscription } from 'rxjs/Subscription';
 export class MainContentComponent implements OnInit {
   date: any = {};
   dateSub: Subscription;
-  
+
   constructor(private scheduleService: ScheduleService, private dateService: DateService) { }
 
   ngOnInit() {

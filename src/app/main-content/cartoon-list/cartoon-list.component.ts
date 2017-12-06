@@ -10,7 +10,7 @@ export class CartoonListComponent implements OnInit {
   featuredCartoons: string[];
   visibleFeaturedCartoons: string[];
   maxVisibleFeaturedCartoons: number = 5;
-  startIndex: number = 0;  
+  startIndex: number = 0;
   selectedCartoon: any;
   showCartoonDetailsModal: boolean = false;
 
@@ -30,9 +30,8 @@ export class CartoonListComponent implements OnInit {
   }
 
   onChangeVisibleCartoons(change) {
-    let newIndex = this.startIndex + change;
-    if (newIndex >= 0 && newIndex + this.maxVisibleFeaturedCartoons <= this.featuredCartoons.length)
-    {
+    const newIndex = this.startIndex + change;
+    if (newIndex >= 0 && newIndex + this.maxVisibleFeaturedCartoons <= this.featuredCartoons.length) {
       this.startIndex = newIndex;
     }
   }

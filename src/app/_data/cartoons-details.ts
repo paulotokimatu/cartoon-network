@@ -16,7 +16,7 @@ export const cartoonsDetails = {
   jorelsBrother: {
     cartoonId: 'jorelsBrother',
     titlePt: 'Irmão do Jorel',
-    titleEn: "Jorel's Brother",
+    titleEn: 'Jorel\'s Brother',
     duration: 10,
     year: 2014,
     origin: 'Brasil',
@@ -170,7 +170,7 @@ export const cartoonsDetails = {
   dexter: {
     cartoonId: 'dexter',
     titlePt: 'O Laboratório de Dexter',
-    titleEn: "Dexter's Laboratory",
+    titleEn: 'Dexter\'s Laboratory',
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',
@@ -310,7 +310,7 @@ export const cartoonsDetails = {
   surfsUp: {
     cartoonId: 'surfsUp',
     titlePt: 'Tá Dando Onda',
-    titleEn: "Surf's Up",
+    titleEn: 'Surf\'s Up',
     duration: 30,
     year: 2015,
     origin: 'Estados Unidos',

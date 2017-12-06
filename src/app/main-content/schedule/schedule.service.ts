@@ -1,6 +1,6 @@
 import { Subject } from 'rxjs/Subject';
-import { scheduleByDay } from '../../_data/schedule-by-day';
 import { cartoonsDetails } from '../../_data/cartoons-details';
+import { scheduleByDay } from '../../_data/schedule-by-day';
 import { Schedule } from '../../_models/schedule.model';
 
 export class ScheduleService {

@@ -6,5 +6,5 @@ export class ParsedDate {
       public dayWeek: string,
       public hour: number,
       public formattedDate: string
-  ){}
-}
+  ) {}
+};

@@ -1,6 +1,7 @@
-import { ScheduleService } from './schedule.service';
 import { Subscription } from 'rxjs/Subscription';
+
 import { Schedule } from '../../_models/schedule.model';
+import { ScheduleService } from './schedule.service';
 
 const mockScheduleByDay = {
   '2017/12/2': [
@@ -546,7 +547,7 @@ const mockCartoonsDetails = {
   jorelsBrother: {
     cartoonId: 'jorelsBrother',
     titlePt: 'Irmão do Jorel',
-    titleEn: "Jorel's Brother",
+    titleEn: 'Jorel\'s Brother',
     duration: 10,
     year: 2014,
     origin: 'Brasil',
@@ -561,20 +562,20 @@ const mockCartoonsDetails = {
 
 describe('ScheduleService', () => {
   it('should instantiate', () => {
-    let service = new ScheduleService();
-    
+    const service = new ScheduleService();
+
     expect(service).toBeTruthy();
   });
 
   it('return schedule of a specific day', () => {
     // Invalid. Difficult to test because there is no api call, I am just importing raw data.
-    let service = new ScheduleService();
-    
+    const service = new ScheduleService();
+
     expect(service).toBeTruthy();
   });
 
   it('emit data for a specific hour', () => {
-    let service = new ScheduleService();
+    const service = new ScheduleService();
     let selectedHourSub: Subscription;
 
     selectedHourSub = service.selectedHourChanged.subscribe((selectedHour: Schedule) => {
@@ -592,15 +593,15 @@ describe('ScheduleService', () => {
 
   it('return data for a specific cartoon by its cartoonId', () => {
     // Invalid. Difficult to test because there is no api call, I am just importing raw data.
-    let service = new ScheduleService();
-    
+    const service = new ScheduleService();
+
     expect(service).toBeTruthy();
   });
 
   it('return details of all cartoons', () => {
     // Invalid. Difficult to test because there is no api call, I am just importing raw data.
-    let service = new ScheduleService();
-    
+    const service = new ScheduleService();
+
     expect(service).toBeTruthy();
   });
 })

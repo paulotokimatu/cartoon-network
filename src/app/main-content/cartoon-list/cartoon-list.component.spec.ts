@@ -1,7 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CartoonListComponent } from './cartoon-list.component';
 import { CartoonDetailsModalComponent } from './cartoon-details-modal/cartoon-details-modal.component';
+import { CartoonListComponent } from './cartoon-list.component';
 import { CartoonListService } from './cartoon-list.service';
 
 describe('CartoonListComponent', () => {
@@ -27,15 +27,15 @@ describe('CartoonListComponent', () => {
   });
 
   it('should get details of the schedule of a cartoon', () => {
-    let service = new CartoonListService();
+    const service = new CartoonListService();
     spyOn(service, 'getOneCartoonSchedule').and.returnValue({titlePt: 'Apenas Um Show'});
-    
+
     component.onOpenCartoonDetailsModal('regularShow');
     expect(component.selectedCartoon.titlePt).toBe('Apenas Um Show');
   });
 
   it('should not allow startIndex to go under zero', () => {
-    let mockCartoonsFeatured = [
+    const mockCartoonsFeatured = [
       'regularShow',
       'jorelsBrother',
       'thePowerpuffGirls',
@@ -45,7 +45,7 @@ describe('CartoonListComponent', () => {
     ];
 
     component.featuredCartoons = mockCartoonsFeatured;
-    
+
     component.onChangeVisibleCartoons(-1);
     component.onChangeVisibleCartoons(-1);
     component.onChangeVisibleCartoons(-1);
@@ -54,7 +54,7 @@ describe('CartoonListComponent', () => {
   });
 
   it('should not allow startIndex to be larger than list length - maxVisibleFeaturedCartoons', () => {
-    let mockCartoonsFeatured = [
+    const mockCartoonsFeatured = [
       'regularShow',
       'jorelsBrother',
       'thePowerpuffGirls',
@@ -73,7 +73,7 @@ describe('CartoonListComponent', () => {
   });
 
   it('should not change startIndex if list length < maxVisibleFeaturedCartoons', () => {
-    let mockCartoonsFeatured = [
+    const mockCartoonsFeatured = [
       'regularShow',
       'jorelsBrother',
       'thePowerpuffGirls',
@@ -85,7 +85,7 @@ describe('CartoonListComponent', () => {
     component.onChangeVisibleCartoons(-1);
     component.onChangeVisibleCartoons(-1);
     expect(component.startIndex).toBe(0);
-    
+
     component.onChangeVisibleCartoons(1);
     expect(component.startIndex).toBe(0);
   });

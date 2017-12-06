@@ -1,8 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ScheduleDetailsComponent } from './schedule-details.component';
-import { ScheduleDetailsModalComponent } from './schedule-details-modal/schedule-details-modal.component';
 import { ScheduleService } from '../schedule/schedule.service';
+import { ScheduleDetailsModalComponent } from './schedule-details-modal/schedule-details-modal.component';
+import { ScheduleDetailsComponent } from './schedule-details.component';
 
 const mockCartoonsDetails = {
   regularShow: {
@@ -22,7 +22,7 @@ const mockCartoonsDetails = {
   jorelsBrother: {
     cartoonId: 'jorelsBrother',
     titlePt: 'Irmão do Jorel',
-    titleEn: "Jorel's Brother",
+    titleEn: 'Jorel\'s Brother',
     duration: 10,
     year: 2014,
     origin: 'Brasil',
@@ -58,26 +58,26 @@ describe('ScheduleDetailsComponent', () => {
   });
 
   it('should give container the color-a if hour % 3 === 0', () => {
-    let colorClass = component.containerColor(0);
+    const colorClass = component.containerColor(0);
 
     expect(colorClass).toBe('container-schedule-details--a');
   });
 
   it('should give container the color-b if hour % 3 === 1', () => {
-    let colorClass = component.containerColor(1);
+    const colorClass = component.containerColor(1);
 
     expect(colorClass).toBe('container-schedule-details--b');
   });
 
   it('should give container the color-c if hour % 3 === 2', () => {
-    let colorClass = component.containerColor(2);
+    const colorClass = component.containerColor(2);
 
     expect(colorClass).toBe('container-schedule-details--c');
   });
 
   it('should receive details of all cartoons', () => {
     const mockData = mockCartoonsDetails;
-    let service = new ScheduleService();    
+    const service = new ScheduleService();
 
     spyOn(service, 'getAllCartoonsDetails').and.returnValue(mockData);
 
@@ -88,14 +88,14 @@ describe('ScheduleDetailsComponent', () => {
 
   it('should get specific details of one cartoon by its cartoonId', () => {
     const mockData = mockCartoonsDetails;
-    let service = new ScheduleService();    
+    const service = new ScheduleService();
 
     spyOn(service, 'getCartoonDetails').and.callFake((cartoonId) => {
       return mockCartoonsDetails[cartoonId];
     });
 
     component.onOpenScheduleDetailsModal('regularShow');
-    
+
     expect(component.selectedCartoon.titlePt).toBe('Apenas Um Show');
   });
 });

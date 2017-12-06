@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { cartoonsAds } from '../../_data/cartoons-ads';
 
-
 @Component({
   selector: 'app-ads',
   templateUrl: './ads.component.html',
@@ -15,5 +14,4 @@ export class AdsComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

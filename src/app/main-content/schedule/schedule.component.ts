@@ -1,8 +1,9 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { ScheduleService } from './schedule.service';
+import { Component, Input, OnInit } from '@angular/core';
+import { Subscription } from 'rxjs/Subscription';
+
 import { Schedule } from '../../_models/schedule.model';
 import { DateService } from '../date.service';
-import { Subscription } from 'rxjs/Subscription';
+import { ScheduleService } from './schedule.service';
 
 @Component({
   selector: 'app-schedule',
@@ -12,7 +13,7 @@ import { Subscription } from 'rxjs/Subscription';
 export class ScheduleComponent implements OnInit {
   @Input() currentHour: number;
   schedule: Schedule;
-  //TODO model for date
+  // TODO model for date
   date: any;
   dateSub: Subscription;
   selectedSquare: number;
@@ -48,11 +49,12 @@ export class ScheduleComponent implements OnInit {
   }
 
   isCurrentHour(hour) {
-    return this.currentHour === parseInt(hour);
+    return this.currentHour === parseInt(hour, 10);
   }
 
   squareColor(hour) {
-    let intHour = parseInt(hour);
+    const intHour = parseInt(hour, 10);
+
     return this.squareClasses[intHour % 3];
   }
 }

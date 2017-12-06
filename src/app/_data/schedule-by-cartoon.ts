@@ -1,5 +1,5 @@
 export const scheduleByCartoon = {
-  'regularShow': {
+  regularShow: {
     cartoonId: 'regularShow',
     titlePt: 'Apenas Um Show',
     titleEn: 'Regular Show',
@@ -35,10 +35,10 @@ export const scheduleByCartoon = {
       },
     ]
   },
-  'jorelsBrother': {
+  jorelsBrother: {
     cartoonId: 'jorelsBrother',
     titlePt: 'Irmão do Jorel',
-    titleEn: "Jorel's Brother",
+    titleEn: 'Jorel\'s Brother',
     indicativeClassification: 10,
     schedule: [
       {
@@ -71,7 +71,7 @@ export const scheduleByCartoon = {
       },
     ]
   },
-  'thePowerpuffGirls': {
+  thePowerpuffGirls: {
     cartoonId: 'thePowerpuffGirls',
     titlePt: 'As Meninas Superpoderosas',
     titleEn: 'The Powerpuff Girls',
@@ -107,7 +107,7 @@ export const scheduleByCartoon = {
       },
     ]
   },
-  'tomAndJerry': {
+  tomAndJerry: {
     cartoonId: 'tomAndJerry',
     titlePt: 'O Show de Tom e Jerry',
     titleEn: 'The Tom & Jerry Show',
@@ -143,7 +143,7 @@ export const scheduleByCartoon = {
       },
     ]
   },
-  'dragonBall': {
+  dragonBall: {
     cartoonId: 'dragonBall',
     titlePt: 'Dragon Ball Super',
     titleEn: 'Dragon Ball Super',
@@ -179,7 +179,7 @@ export const scheduleByCartoon = {
       },
     ]
   },
-  'scoobyDoo': {
+  scoobyDoo: {
     cartoonId: 'scoobyDoo',
     titlePt: 'Que Legal, Scooby-Doo!',
     titleEn: 'Be Cool Scooby Doo',
