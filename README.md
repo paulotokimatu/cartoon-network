@@ -22,6 +22,8 @@ Por último acesse http://localhost:4200 para iniciar a aplicação.
 
 Você pode verificar o linting com `ng lint` e rodar os testes unitários com `ng test`.
 
+É possível ainda compilar o código com `ng build --base-href ./ --prod`.
+
 ## Possíveis melhorias
 
 Evidentemente não é um produto 100% finalizado. Como melhorias, eu poderia:
