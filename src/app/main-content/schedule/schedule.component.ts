@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs/Subscription';
 
+import { ParsedDate } from '../../_models/parsed-date.model';
 import { Schedule } from '../../_models/schedule.model';
 import { DateService } from '../date.service';
 import { ScheduleService } from './schedule.service';
@@ -13,8 +14,7 @@ import { ScheduleService } from './schedule.service';
 export class ScheduleComponent implements OnInit {
   @Input() currentHour: number;
   schedule: Schedule;
-  // TODO model for date
-  date: any;
+  date: ParsedDate;
   dateSub: Subscription;
   selectedSquare: number;
   loading: boolean = false;

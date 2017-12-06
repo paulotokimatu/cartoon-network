@@ -3,7 +3,7 @@ import { ParsedDate } from '../_models/parsed-date.model';
 
 export class DateService {
   currentDate: Date = new Date();
-  currentDateChanged = new Subject<{}>();
+  currentDateChanged = new Subject<ParsedDate>();
 
   dayWeek = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
 
